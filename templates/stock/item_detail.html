@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% load stock_extras %}
+
+{% block content %}
+<div class="card">
+    <h2>{{ item.name }}</h2>
+    <p><strong>{{ 'Code'|translate:request.LANGUAGE_CODE }}:</strong> {{ item.code }}</p>
+    <p><strong>{{ 'Category'|translate:request.LANGUAGE_CODE }}:</strong> {{ item.category.name }}</p>
+    <p><strong>{{ 'Status'|translate:request.LANGUAGE_CODE }}:</strong> <span
+            class="status-badge status-{{ item.status }}">{{ item.get_status_display }}</span>
+    </p>
+    <p><strong>{{ 'Quantity'|translate:request.LANGUAGE_CODE }}:</strong> {{ item.quantity }}</p>
+    <p><strong>{{ 'Description'|translate:request.LANGUAGE_CODE }}:</strong> {{ item.description }}</p>
+    <p><strong>{{ 'Created At'|translate:request.LANGUAGE_CODE }}:</strong> {{ item.created_at|date:"d/m/Y H:i" }}</p>
+
+    {% if item.qr_code %}
+    <div style="text-align: center; margin-top: 2rem;">
+        <h3>{{ 'QR Code'|translate:request.LANGUAGE_CODE }}</h3>
+        <img src="{{ item.qr_code.url }}" class="qr-large">
+        <br>
+        <a href="{{ item.qr_code.url }}" download class="btn">{{ 'Download QR'|translate:request.LANGUAGE_CODE }}</a>
+    </div>
+    {% endif %}
+
+    <div class="actions" style="margin-top: 20px;">
+        <a href="{% url 'item_edit' item.code %}" class="btn">{{ 'Edit'|translate:request.LANGUAGE_CODE }}</a>
+        <a href="{% url 'item_list' %}" class="btn btn-secondary">{{ 'Back'|translate:request.LANGUAGE_CODE }}</a>
+    </div>
+</div>
+{% endblock %}

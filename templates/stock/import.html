@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load stock_extras %}
+
+{% block content %}
+<h2>{{ 'Import Items'|translate:request.LANGUAGE_CODE }}</h2>
+<p>{{ 'Upload Excel'|translate:request.LANGUAGE_CODE }}. Columns required (Spanish): Elemento, Categoría, Estado,
+    Cantidad, Descripción.</p>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-block">{{ 'Upload'|translate:request.LANGUAGE_CODE }}</button>
+</form>
+{% endblock %}

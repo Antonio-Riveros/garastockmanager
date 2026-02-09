@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+{% load static %}
+{% load stock_extras %}
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ 'GARA Stock'|translate:request.LANGUAGE_CODE }}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <header>
+        <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+            <h1><a href="{% url 'item_list' %}" style="color:white; text-decoration:none;">{{ 'GARA
+                    Stock'|translate:request.LANGUAGE_CODE }}</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="{% url 'item_list' %}">{{ 'Inventory'|translate:request.LANGUAGE_CODE }}</a></li>
+                    <li><a href="{% url 'item_add' %}">{{ 'New'|translate:request.LANGUAGE_CODE }}</a></li>
+                    <li><a href="{% url 'import_excel' %}">{{ 'Import'|translate:request.LANGUAGE_CODE }}</a></li>
+                    <li><a href="{% url 'scanner' %}">{{ 'Scan'|translate:request.LANGUAGE_CODE }}</a></li>
+                    <li>
+                        <button id="darkModeToggle" class="btn"
+                            style="padding: 0.25rem 0.5rem; background: transparent; border: 1px solid white;">🌙</button>
+                    </li>
+                    <li>
+                        {% if request.LANGUAGE_CODE|slice:":2" == 'es' %}
+                        <a href="{% url 'set_language' 'en' %}" style="font-size: 0.8rem;"
+                            title="Switch to English">EN</a>
+                        {% else %}
+                        <a href="{% url 'set_language' 'es' %}" style="font-size: 0.8rem;"
+                            title="Cambiar a Español">ES</a>
+                        {% endif %}
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <script>
+        // Dark Mode Logic
+        const toggleButton = document.getElementById('darkModeToggle');
+        const body = document.body;
+
+        // Check local storage
+        if (localStorage.getItem('darkMode') === 'enabled') {
+            body.classList.add('dark-mode');
+            toggleButton.innerText = '☀️';
+        }
+
+        toggleButton.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('darkMode', 'enabled');
+                toggleButton.innerText = '☀️';
+            } else {
+                localStorage.setItem('darkMode', 'disabled');
+                toggleButton.innerText = '🌙';
+            }
+        });
+    </script>
+
+    <main class="container">
+        {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
+                {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% block content %}
+        {% endblock %}
+    </main>
+</body>
+
+</html>
