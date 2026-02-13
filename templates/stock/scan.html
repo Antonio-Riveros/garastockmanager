@@ -1,59 +1,31 @@
 {% extends 'base.html' %}
 {% load static %}
-
 {% block content %}
-<div class="card">
-    <h2>Escanear Código QR</h2>
-    <div id="reader" style="width: 100%;"></div>
-    <div id="result" style="margin-top: 20px; font-weight: bold;"></div>
-</div>
-
-<!-- Include html5-qrcode library from CDN -->
+<div class="row justify-content-center"><div class="col-md-8 col-lg-6">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white"><h4 class="mb-0">{{ 'Escanear Código QR'|translate:request.LANGUAGE_CODE }}</h4></div>
+        <div class="card-body">
+            <div id="reader" style="width: 100%;"></div>
+            <div id="result" class="mt-3 alert alert-info" style="display: none;"></div>
+        </div>
+    </div>
+</div></div>
 <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
-
 <script>
     function onScanSuccess(decodedText, decodedResult) {
-        // Handle the scanned code
         console.log(`Code matched = ${decodedText}`, decodedResult);
-
-        // Stop scanning
         html5QrcodeScanner.clear();
-
-        document.getElementById('result').innerText = "Código detectado: " + decodedText;
-
-        // Logic to redirect
-        // The QR contains the full URL like http://<ip>:8000/stock/items/<code >/
-        // If scanned text is a URL from our app, just go there.
-        // If it's just a code (backup), construct URL.
-
+        const resultDiv = document.getElementById('result');
+        resultDiv.style.display = 'block';
+        resultDiv.innerText = "Código detectado: " + decodedText;
         if (decodedText.startsWith('http')) {
             window.location.href = decodedText;
         } else {
-            // Assume it is just the code
-            // We need to construct the URL. 
-            // Since we are in Django, we can't easily put JS variable into a url tag.
-            // So we use a placeholder or string manipulation.
-
-            var baseUrl = "{% url 'item_list' %}"; // /stock/
-            // item_detail url is /stock/items/<code>/
-            // We can construct it manually if we know the structure
-
-            // Removing a trailing slash from base if exists (it shouldn't for list but let's be safe)
-            // Actually, let's just hardcode the path structure since it is defined in urls.py
             window.location.href = "/stock/items/" + decodedText + "/";
         }
     }
-
-    function onScanFailure(error) {
-        // handle scan failure, usually better to ignore and keep scanning.
-        // for example:
-        // console.warn(`Code scan error = ${error}`);
-    }
-
-    let html5QrcodeScanner = new Html5QrcodeScanner(
-        "reader",
-        { fps: 10, qrbox: { width: 250, height: 250 } },
-      /* verbose= */ false);
+    function onScanFailure(error) {}
+    let html5QrcodeScanner = new Html5QrcodeScanner("reader", { fps: 10, qrbox: { width: 250, height: 250 } }, false);
     html5QrcodeScanner.render(onScanSuccess, onScanFailure);
 </script>
 {% endblock %}

@@ -1,80 +1,82 @@
 <!DOCTYPE html>
 {% load static %}
 {% load stock_extras %}
-<html lang="es">
-
+<html lang="es" data-bs-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ 'GARA Stock'|translate:request.LANGUAGE_CODE }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
-
 <body>
-    <header>
-        <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
-            <h1><a href="{% url 'item_list' %}" style="color:white; text-decoration:none;">{{ 'GARA
-                    Stock'|translate:request.LANGUAGE_CODE }}</a></h1>
-            <nav>
-                <ul>
-                    <li><a href="{% url 'item_list' %}">{{ 'Inventory'|translate:request.LANGUAGE_CODE }}</a></li>
-                    <li><a href="{% url 'item_add' %}">{{ 'New'|translate:request.LANGUAGE_CODE }}</a></li>
-                    <li><a href="{% url 'import_excel' %}">{{ 'Import'|translate:request.LANGUAGE_CODE }}</a></li>
-                    <li><a href="{% url 'scanner' %}">{{ 'Scan'|translate:request.LANGUAGE_CODE }}</a></li>
-                    <li>
-                        <button id="darkModeToggle" class="btn"
-                            style="padding: 0.25rem 0.5rem; background: transparent; border: 1px solid white;">🌙</button>
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{% url 'item_list' %}">{{ 'GARA Stock'|translate:request.LANGUAGE_CODE }}</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="{% url 'item_list' %}">{{ 'Inventory'|translate:request.LANGUAGE_CODE }}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'item_add' %}">{{ 'New'|translate:request.LANGUAGE_CODE }}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'import_excel' %}">{{ 'Import'|translate:request.LANGUAGE_CODE }}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'category_list' %}">{{ 'Categories'|translate:request.LANGUAGE_CODE }}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'catalog_list' %}">{{ 'IMPA Catalog'|translate:request.LANGUAGE_CODE }}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'scanner' %}">{{ 'Scan'|translate:request.LANGUAGE_CODE }}</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <button id="darkModeToggle" class="btn btn-sm btn-outline-light me-2">🌙</button>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         {% if request.LANGUAGE_CODE|slice:":2" == 'es' %}
-                        <a href="{% url 'set_language' 'en' %}" style="font-size: 0.8rem;"
-                            title="Switch to English">EN</a>
+                        <a href="{% url 'set_language' 'en' %}" class="btn btn-sm btn-outline-light">EN</a>
                         {% else %}
-                        <a href="{% url 'set_language' 'es' %}" style="font-size: 0.8rem;"
-                            title="Cambiar a Español">ES</a>
+                        <a href="{% url 'set_language' 'es' %}" class="btn btn-sm btn-outline-light">ES</a>
                         {% endif %}
                     </li>
                 </ul>
-            </nav>
+            </div>
         </div>
-    </header>
-
+    </nav>
     <script>
-        // Dark Mode Logic
-        const toggleButton = document.getElementById('darkModeToggle');
-        const body = document.body;
-
-        // Check local storage
-        if (localStorage.getItem('darkMode') === 'enabled') {
-            body.classList.add('dark-mode');
-            toggleButton.innerText = '☀️';
-        }
-
-        toggleButton.addEventListener('click', () => {
-            body.classList.toggle('dark-mode');
-
-            if (body.classList.contains('dark-mode')) {
-                localStorage.setItem('darkMode', 'enabled');
-                toggleButton.innerText = '☀️';
+        (function() {
+            const html = document.documentElement;
+            const toggleBtn = document.getElementById('darkModeToggle');
+            function updateIcon(theme) { if (toggleBtn) toggleBtn.innerHTML = theme === 'dark' ? '☀️' : '🌙'; }
+            const storedTheme = localStorage.getItem('bsTheme');
+            if (storedTheme === 'dark' || (!storedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                html.setAttribute('data-bs-theme', 'dark');
+                updateIcon('dark');
             } else {
-                localStorage.setItem('darkMode', 'disabled');
-                toggleButton.innerText = '🌙';
+                html.setAttribute('data-bs-theme', 'light');
+                updateIcon('light');
             }
-        });
+            if (toggleBtn) {
+                toggleBtn.addEventListener('click', () => {
+                    const newTheme = html.getAttribute('data-bs-theme') === 'light' ? 'dark' : 'light';
+                    html.setAttribute('data-bs-theme', newTheme);
+                    localStorage.setItem('bsTheme', newTheme);
+                    updateIcon(newTheme);
+                });
+            }
+        })();
     </script>
-
-    <main class="container">
+    <div class="container mt-3">
         {% if messages %}
-        <ul class="messages">
             {% for message in messages %}
-            <li{% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
-                {% endfor %}
-        </ul>
+                <div class="alert alert-{{ message.tags|default:'info' }} alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            {% endfor %}
         {% endif %}
-
-        {% block content %}
-        {% endblock %}
+    </div>
+    <main class="container my-4">
+        {% block content %}{% endblock %}
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

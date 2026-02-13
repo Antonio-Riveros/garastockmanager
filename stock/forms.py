@@ -3,11 +3,10 @@ from .models import Item
 
 class ItemForm(forms.ModelForm):
     new_category_name = forms.CharField(
-        label="Nombre de nueva categoría", 
-        required=False, 
+        label="Nombre de nueva categoría",
+        required=False,
         widget=forms.TextInput(attrs={'placeholder': 'Solo si seleccionaste Nueva Categoría'})
     )
-
     class Meta:
         model = Item
         fields = ['name', 'category', 'status', 'quantity', 'description']

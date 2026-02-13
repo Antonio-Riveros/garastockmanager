@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load stock_extras %}
+{% block content %}
+<div class="row justify-content-center"><div class="col-lg-8">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white"><h4 class="mb-0">{{ object.code }} - {{ object.description|truncatechars:50 }}</h4></div>
+        <div class="card-body">
+            <div class="row mb-3"><div class="col-sm-4 fw-bold">{{ 'IMPA Code'|translate:request.LANGUAGE_CODE }}:</div><div class="col-sm-8">{{ object.code }}</div></div>
+            <div class="row mb-3"><div class="col-sm-4 fw-bold">{{ 'Description'|translate:request.LANGUAGE_CODE }}:</div><div class="col-sm-8">{{ object.description }}</div></div>
+            <div class="row mb-3"><div class="col-sm-4 fw-bold">{{ 'Category'|translate:request.LANGUAGE_CODE }}:</div><div class="col-sm-8">{{ object.category }}</div></div>
+            <div class="row mb-3"><div class="col-sm-4 fw-bold">{{ 'Sub-category'|translate:request.LANGUAGE_CODE }}:</div><div class="col-sm-8">{{ object.sub_category|default:'-' }}</div></div>
+            <div class="row mb-3"><div class="col-sm-4 fw-bold">{{ 'Unit'|translate:request.LANGUAGE_CODE }}:</div><div class="col-sm-8">{{ object.unit|default:'-' }}</div></div>
+            {% if object.keywords %}
+            <div class="row mb-3"><div class="col-sm-4 fw-bold">{{ 'Keywords'|translate:request.LANGUAGE_CODE }}:</div><div class="col-sm-8">{% for kw in object.keywords %}<span class="badge bg-info me-1">{{ kw }}</span>{% endfor %}</div></div>
+            {% endif %}
+            {% if object.notes %}
+            <div class="row mb-3"><div class="col-sm-4 fw-bold">{{ 'Notes'|translate:request.LANGUAGE_CODE }}:</div><div class="col-sm-8">{{ object.notes }}</div></div>
+            {% endif %}
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+            <a href="{% url 'add_to_inventory' object.code %}" class="btn btn-success">+ {{ 'Add to inventory'|translate:request.LANGUAGE_CODE }}</a>
+            <a href="{% url 'catalog_list' %}" class="btn btn-secondary">{{ 'Back to catalog'|translate:request.LANGUAGE_CODE }}</a>
+        </div>
+    </div>
+</div></div>
+{% endblock %}

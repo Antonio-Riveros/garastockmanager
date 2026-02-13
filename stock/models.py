@@ -33,39 +33,44 @@ class Item(models.Model):
 
     def save(self, *args, **kwargs):
         is_new = self.pk is None
-        
-        # 1. Generate Code if new
         if is_new and not self.code:
             numeric_part = generate_unique_numeric_part()
             new_code = f"{self.category.code}-{numeric_part}"
-            
-            # Simple collision check loop
             while Item.objects.filter(code=new_code).exists():
                 numeric_part = generate_unique_numeric_part()
                 new_code = f"{self.category.code}-{numeric_part}"
-            
             self.code = new_code
-            
-        # 2. Generate QR if new or code changed (usually code doesn't change)
         if not self.qr_code:
-            # Determine base URL. This is tricky for local dev.
-            # Using socket to guess local IP is a decent heuristic for an MVP running locally.
             try:
                 hostname = socket.gethostname()
                 local_ip = socket.gethostbyname(hostname)
                 base_url = f"http://{local_ip}:8000"
             except:
                 base_url = "http://localhost:8000"
-                
-            # Construct URL for the item detail view
-            # Note: We haven't defined the URL pattern yet but let's assume '/stock/items/<code >/'
             qr_target_url = f"{base_url}/stock/items/{self.code}/"
-            
-            # Use code for filename to avoid invalid characters in URL
             qr_filename = f"qr_{self.code}.png"
             self.qr_code = generate_qr_code(qr_target_url, filename=qr_filename)
-
         super().save(*args, **kwargs)
 
     def __str__(self):
         return f"{self.name} ({self.code})"
+
+class StandardItem(models.Model):
+    CATALOG_CHOICES = [
+        ('IMPA', 'IMPA'),
+        ('ISSA', 'ISSA'),
+    ]
+    code = models.CharField(max_length=20, unique=True, db_index=True)
+    description = models.TextField()
+    category = models.CharField(max_length=100)
+    sub_category = models.CharField(max_length=100, blank=True)
+    unit = models.CharField(max_length=20, blank=True)
+    keywords = models.JSONField(default=list, blank=True)
+    notes = models.TextField(blank=True)
+    catalog = models.CharField(max_length=10, choices=CATALOG_CHOICES, default='IMPA')
+
+    class Meta:
+        ordering = ['code']
+
+    def __str__(self):
+        return f"{self.code} - {self.description[:50]}"

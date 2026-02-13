@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load stock_extras %}
+{% block content %}
+<div class="row justify-content-center"><div class="col-md-6 col-lg-5">
+    <div class="card shadow border-danger">
+        <div class="card-header bg-danger text-white"><h4 class="mb-0">{{ 'Delete Category'|translate:request.LANGUAGE_CODE }}</h4></div>
+        <div class="card-body">
+            <p class="fs-5">{{ 'Are you sure you want to delete'|translate:request.LANGUAGE_CODE }} <strong>"{{ object.name }}"</strong>?</p>
+            <p class="text-muted">{{ 'This action cannot be undone'|translate:request.LANGUAGE_CODE }}.</p>
+            <form method="post">
+                {% csrf_token %}
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-danger"><i class="bi bi-trash"></i> {{ 'Yes, delete'|translate:request.LANGUAGE_CODE }}</button>
+                    <a href="{% url 'category_list' %}" class="btn btn-secondary">{{ 'Cancel'|translate:request.LANGUAGE_CODE }}</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div></div>
+{% endblock %}

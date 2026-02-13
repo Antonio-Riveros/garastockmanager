@@ -1,31 +1,29 @@
 {% extends 'base.html' %}
-
 {% load stock_extras %}
-
 {% block content %}
-<div class="card">
-    <h2>{{ item.name }}</h2>
-    <p><strong>{{ 'Code'|translate:request.LANGUAGE_CODE }}:</strong> {{ item.code }}</p>
-    <p><strong>{{ 'Category'|translate:request.LANGUAGE_CODE }}:</strong> {{ item.category.name }}</p>
-    <p><strong>{{ 'Status'|translate:request.LANGUAGE_CODE }}:</strong> <span
-            class="status-badge status-{{ item.status }}">{{ item.get_status_display }}</span>
-    </p>
-    <p><strong>{{ 'Quantity'|translate:request.LANGUAGE_CODE }}:</strong> {{ item.quantity }}</p>
-    <p><strong>{{ 'Description'|translate:request.LANGUAGE_CODE }}:</strong> {{ item.description }}</p>
-    <p><strong>{{ 'Created At'|translate:request.LANGUAGE_CODE }}:</strong> {{ item.created_at|date:"d/m/Y H:i" }}</p>
-
-    {% if item.qr_code %}
-    <div style="text-align: center; margin-top: 2rem;">
-        <h3>{{ 'QR Code'|translate:request.LANGUAGE_CODE }}</h3>
-        <img src="{{ item.qr_code.url }}" class="qr-large">
-        <br>
-        <a href="{{ item.qr_code.url }}" download class="btn">{{ 'Download QR'|translate:request.LANGUAGE_CODE }}</a>
+<div class="row"><div class="col-lg-8 mx-auto">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white"><h3 class="mb-0">{{ item.name }}</h3></div>
+        <div class="card-body">
+            <div class="row mb-3"><div class="col-sm-4 fw-bold">{{ 'Code'|translate:request.LANGUAGE_CODE }}:</div><div class="col-sm-8">{{ item.code }}</div></div>
+            <div class="row mb-3"><div class="col-sm-4 fw-bold">{{ 'Category'|translate:request.LANGUAGE_CODE }}:</div><div class="col-sm-8">{{ item.category.name }}</div></div>
+            <div class="row mb-3"><div class="col-sm-4 fw-bold">{{ 'Status'|translate:request.LANGUAGE_CODE }}:</div><div class="col-sm-8"><span class="badge bg-{% if item.status == 'FUNCIONAL' %}success{% elif item.status == 'AVERIADO' %}danger{% elif item.status == 'OBSOLETO' %}secondary{% elif item.status == 'VENTA' %}warning{% else %}info{% endif %}">{{ item.get_status_display }}</span></div></div>
+            <div class="row mb-3"><div class="col-sm-4 fw-bold">{{ 'Quantity'|translate:request.LANGUAGE_CODE }}:</div><div class="col-sm-8">{{ item.quantity }}</div></div>
+            <div class="row mb-3"><div class="col-sm-4 fw-bold">{{ 'Description'|translate:request.LANGUAGE_CODE }}:</div><div class="col-sm-8">{{ item.description|default:'-' }}</div></div>
+            <div class="row mb-3"><div class="col-sm-4 fw-bold">{{ 'Created At'|translate:request.LANGUAGE_CODE }}:</div><div class="col-sm-8">{{ item.created_at|date:"d/m/Y H:i" }}</div></div>
+            {% if item.qr_code %}
+            <hr>
+            <div class="text-center">
+                <h5>{{ 'QR Code'|translate:request.LANGUAGE_CODE }}</h5>
+                <img src="{{ item.qr_code.url }}" alt="QR" class="img-fluid mb-3" style="max-width: 200px;"><br>
+                <a href="{{ item.qr_code.url }}" download class="btn btn-success"><i class="bi bi-download"></i> {{ 'Download QR'|translate:request.LANGUAGE_CODE }}</a>
+            </div>
+            {% endif %}
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+            <a href="{% url 'item_edit' item.code %}" class="btn btn-warning">{{ 'Edit'|translate:request.LANGUAGE_CODE }}</a>
+            <a href="{% url 'item_list' %}" class="btn btn-secondary">{{ 'Back'|translate:request.LANGUAGE_CODE }}</a>
+        </div>
     </div>
-    {% endif %}
-
-    <div class="actions" style="margin-top: 20px;">
-        <a href="{% url 'item_edit' item.code %}" class="btn">{{ 'Edit'|translate:request.LANGUAGE_CODE }}</a>
-        <a href="{% url 'item_list' %}" class="btn btn-secondary">{{ 'Back'|translate:request.LANGUAGE_CODE }}</a>
-    </div>
-</div>
+</div></div>
 {% endblock %}

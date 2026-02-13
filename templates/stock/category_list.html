@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load stock_extras %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>{{ 'Categories'|translate:request.LANGUAGE_CODE }}</h2>
+    <a href="{% url 'category_add' %}" class="btn btn-primary"><i class="bi bi-plus-circle"></i> {{ 'Add Category'|translate:request.LANGUAGE_CODE }}</a>
+</div>
+<div class="table-responsive">
+    <table class="table table-striped table-hover align-middle">
+        <thead class="table-dark">
+            <tr><th>{{ 'Name'|translate:request.LANGUAGE_CODE }}</th><th>{{ 'Code'|translate:request.LANGUAGE_CODE }}</th><th>{{ 'Actions'|translate:request.LANGUAGE_CODE }}</th></tr>
+        </thead>
+        <tbody>
+            {% for category in categories %}
+            <tr>
+                <td>{{ category.name }}</td>
+                <td><span class="badge bg-secondary">{{ category.code }}</span></td>
+                <td>
+                    <a href="{% url 'category_edit' category.pk %}" class="btn btn-sm btn-warning">{{ 'Edit'|translate:request.LANGUAGE_CODE }}</a>
+                    <a href="{% url 'category_delete' category.pk %}" class="btn btn-sm btn-danger">{{ 'Delete'|translate:request.LANGUAGE_CODE }}</a>
+                </td>
+            </tr>
+            {% empty %}
+            <tr><td colspan="3" class="text-center">{{ 'No categories'|translate:request.LANGUAGE_CODE }}</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,3327 @@
+{
+"source": "Synthetic IMPA-like Maritime Catalogue",
+"version": "1.0",
+"items": [
+{
+"impa_code": "330101",
+"description": "Lifejacket, adult, 150N, SOLAS approved, with retro-reflective tape",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["lifejacket", "adult", "150N", "solas", "retro-reflective", "buoyancy aid"],
+"notes": "ISO 12402-3, with whistle and light holder"
+},
+{
+"impa_code": "330102",
+"description": "Lifejacket, child, 100N, SOLAS approved",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["lifejacket", "child", "100N", "solas"],
+"notes": "ISO 12402-4, suitable for children under 30 kg"
+},
+{
+"impa_code": "330103",
+"description": "Lifejacket, inflatable, 275N, manual/hydrostatic activation",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["lifejacket", "inflatable", "275N", "hydrostatic", "manual inflation"],
+"notes": "SOLAS/MED approved, includes CO2 cylinder"
+},
+{
+"impa_code": "330104",
+"description": "Lifejacket, offshore, 180N, with spray hood and crotch strap",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["lifejacket", "offshore", "180N", "spray hood", "crotch strap"],
+"notes": "ISO 12402-2"
+},
+{
+"impa_code": "330105",
+"description": "Lifejacket light, automatic LED, SOLAS approved",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["lifejacket light", "automatic", "led", "solas"],
+"notes": "Battery life >8 hours, water-activated"
+},
+{
+"impa_code": "330201",
+"description": "Lifejacket light, manual pull-pin, SOLAS approved",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["lifejacket light", "manual", "pull-pin", "solas"],
+"notes": "Non-hazardous, lithium battery"
+},
+{
+"impa_code": "330202",
+"description": "Lifebuoy, SOLAS approved, 2.5kg, with retro-reflective tape",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["lifebuoy", "solas", "2.5kg", "retro-reflective", "ring buoy"],
+"notes": "710mm outer diameter, orange"
+},
+{
+"impa_code": "330203",
+"description": "Lifebuoy, SOLAS approved, 4.3kg, for ships",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["lifebuoy", "solas", "4.3kg"],
+"notes": "760mm outer diameter, white"
+},
+{
+"impa_code": "330204",
+"description": "Lifebuoy self-activating smoke signal, SOLAS",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["lifebuoy smoke", "self-activating", "solas", "buoyant smoke"],
+"notes": "≥15 min orange smoke, automatic upon water contact"
+},
+{
+"impa_code": "330205",
+"description": "Lifebuoy light, automatic LED, SOLAS",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["lifebuoy light", "automatic", "led", "solas"],
+"notes": "≥2 nautical mile visibility"
+},
+{
+"impa_code": "330206",
+"description": "Buoyant lifeline for lifebuoy, 30m, polypropylene",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["lifeline", "buoyant", "lifebuoy", "polypropylene", "30m"],
+"notes": "8mm diameter, orange"
+},
+{
+"impa_code": "330501",
+"description": "EPIRB, 406 MHz, CAT 1, automatic release, GPS",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["epirb", "406 mhz", "cat 1", "gps", "cospas-sarsat", "emergency beacon"],
+"notes": "Float-free, SOLAS approved"
+},
+{
+"impa_code": "330502",
+"description": "EPIRB, 406 MHz, CAT 2, manual release, GPS",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["epirb", "406 mhz", "cat 2", "gps"],
+"notes": "Manual activation, SOLAS"
+},
+{
+"impa_code": "330503",
+"description": "SART, 9 GHz, radar transponder, SOLAS",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["sart", "radar transponder", "9 ghz", "solas", "search and rescue"],
+"notes": "Battery life ≥96 h standby, ≥8 h transponder"
+},
+{
+"impa_code": "330504",
+"description": "SART, AIS, automatic identification system, SOLAS",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["ais sart", "ais", "sart", "solas"],
+"notes": "Transmits AIS position"
+},
+{
+"impa_code": "330701",
+"description": "Immersion suit, SOLAS approved, with buoyancy, orange",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["immersion suit", "solas", "survival suit", "buoyancy", "orange"],
+"notes": "5 sizes available: XS-XXL"
+},
+{
+"impa_code": "330702",
+"description": "Immersion suit, insulated, SOLAS, with integral boots",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["immersion suit", "insulated", "integral boots", "solas"],
+"notes": "Neoprene, 5 layers"
+},
+{
+"impa_code": "330801",
+"description": "Thermal protective aid, SOLAS, aluminized PET film",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["thermal protective aid", "tpa", "solas", "hypothermia"],
+"notes": "2.15 x 0.9 m, compact pack"
+},
+{
+"impa_code": "330901",
+"description": "Life raft, 6 person, SOLAS A pack, davit launchable",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "SET",
+"keywords": ["life raft", "6 person", "solas", "a pack", "davit"],
+"notes": "Includes SOLAS A equipment pack"
+},
+{
+"impa_code": "330902",
+"description": "Life raft, 12 person, SOLAS A pack, throw-over",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "SET",
+"keywords": ["life raft", "12 person", "solas", "a pack", "throw-over"],
+"notes": "Double buoyancy tube"
+},
+{
+"impa_code": "331001",
+"description": "Rescue sling, canvas, for helicopter lifting",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["rescue sling", "helicopter", "lifting sling", "canvas"],
+"notes": "SWL 150 kg"
+},
+{
+"impa_code": "331002",
+"description": "Rescue net, throwable, 8m line",
+"category": "Safety & Fire Fighting",
+"sub_category": "Life Saving Appliances",
+"unit": "PCS",
+"keywords": ["rescue net", "throwable", "man overboard"],
+"notes": "Polypropylene mesh"
+},
+{
+"impa_code": "332001",
+"description": "Fire extinguisher, CO2, 5 kg, with bracket",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fire Extinguishers",
+"unit": "PCS",
+"keywords": ["fire extinguisher", "co2", "5kg", "carbon dioxide", "bracket"],
+"notes": "Marine grade, SOLAS approved"
+},
+{
+"impa_code": "332002",
+"description": "Fire extinguisher, dry powder, 6 kg, ABC, with pressure gauge",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fire Extinguishers",
+"unit": "PCS",
+"keywords": ["fire extinguisher", "dry powder", "6kg", "abc", "pressure gauge"],
+"notes": "SOLAS MED"
+},
+{
+"impa_code": "332003",
+"description": "Fire extinguisher, foam, 9 l, AFFF",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fire Extinguishers",
+"unit": "PCS",
+"keywords": ["fire extinguisher", "foam", "9l", "afff"],
+"notes": "Stored pressure"
+},
+{
+"impa_code": "332004",
+"description": "Fire extinguisher, water mist, 6 l",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fire Extinguishers",
+"unit": "PCS",
+"keywords": ["fire extinguisher", "water mist", "6l"],
+"notes": "For Class A fires, deionized water"
+},
+{
+"impa_code": "332005",
+"description": "Fire extinguisher spare charge, dry powder 6 kg",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fire Extinguishers",
+"unit": "PCS",
+"keywords": ["spare charge", "dry powder", "6kg"],
+"notes": "For refillable extinguishers"
+},
+{
+"impa_code": "332101",
+"description": "Fire hose, unlined, 52 mm, 15 m, with couplings",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fire Hoses & Nozzles",
+"unit": "PCS",
+"keywords": ["fire hose", "unlined", "52mm", "15m", "couplings"],
+"notes": "EN 14540"
+},
+{
+"impa_code": "332102",
+"description": "Fire hose, lined, 45 mm, 20 m, instantaneous couplings",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fire Hoses & Nozzles",
+"unit": "PCS",
+"keywords": ["fire hose", "lined", "45mm", "20m"],
+"notes": "Rubber lined, polyester jacket"
+},
+{
+"impa_code": "332103",
+"description": "Fire hose nozzle, jet/spray, 52 mm, adjustable",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fire Hoses & Nozzles",
+"unit": "PCS",
+"keywords": ["nozzle", "fire hose", "jet spray", "adjustable", "52mm"],
+"notes": "Ball valve type"
+},
+{
+"impa_code": "332104",
+"description": "Fire hose nozzle, dual purpose, 45 mm, with shut-off",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fire Hoses & Nozzles",
+"unit": "PCS",
+"keywords": ["nozzle", "dual purpose", "45mm", "shut-off"],
+"notes": "Non-corrosive"
+},
+{
+"impa_code": "332105",
+"description": "Fire hose coupling, instantaneous, 52 mm, bronze",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fire Hoses & Nozzles",
+"unit": "PCS",
+"keywords": ["coupling", "fire hose", "instantaneous", "52mm", "bronze"],
+"notes": "Set includes male and female"
+},
+{
+"impa_code": "332301",
+"description": "Fireman's outfit, including jacket, trousers, boots, helmet, axe, belt",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fireman's Outfit",
+"unit": "SET",
+"keywords": ["fireman outfit", "firefighting", "protective clothing", "solas"],
+"notes": "SOLAS, size L"
+},
+{
+"impa_code": "332302",
+"description": "Fire helmet, fiberglass, with visor and neck flap",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fireman's Outfit",
+"unit": "PCS",
+"keywords": ["fire helmet", "fiberglass", "visor", "neck flap"],
+"notes": "EN 443"
+},
+{
+"impa_code": "332303",
+"description": "Firefighting boots, rubber steel toe, knee-high",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fireman's Outfit",
+"unit": "PR",
+"keywords": ["fire boots", "rubber", "steel toe", "knee-high"],
+"notes": "Size EU 42-46"
+},
+{
+"impa_code": "332304",
+"description": "Fireman's axe, with insulated handle",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fireman's Outfit",
+"unit": "PCS",
+"keywords": ["fire axe", "insulated handle", "fireman axe"],
+"notes": "1.5 kg head"
+},
+{
+"impa_code": "332401",
+"description": "Smoke detector, optical, 12/24 VDC, marine approved",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fire Detection",
+"unit": "PCS",
+"keywords": ["smoke detector", "optical", "marine", "12v", "24v"],
+"notes": "IP44"
+},
+{
+"impa_code": "332402",
+"description": "Heat detector, rate-of-rise, fixed temp 57°C",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fire Detection",
+"unit": "PCS",
+"keywords": ["heat detector", "rate of rise", "fixed temperature", "57c"],
+"notes": "For galley and engine room"
+},
+{
+"impa_code": "332403",
+"description": "Flame detector, UV/IR, for hazardous areas",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fire Detection",
+"unit": "PCS",
+"keywords": ["flame detector", "uv", "ir", "hazardous area"],
+"notes": "ATEX/IECEx certified"
+},
+{
+"impa_code": "332404",
+"description": "Manual call point, break glass, IP66",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fire Detection",
+"unit": "PCS",
+"keywords": ["manual call point", "break glass", "fire alarm"],
+"notes": "Red, with test key"
+},
+{
+"impa_code": "332501",
+"description": "Fire blanket, 1.2 x 1.2 m, fiberglass, in case",
+"category": "Safety & Fire Fighting",
+"sub_category": "Fire Blankets",
+"unit": "PCS",
+"keywords": ["fire blanket", "fiberglass", "1.2x1.2m", "case"],
+"notes": "For galley fires"
+},
+{
+"impa_code": "332601",
+"description": "Parachute rocket flare, SOLAS, red, single",
+"category": "Safety & Fire Fighting",
+"sub_category": "Pyrotechnics",
+"unit": "PCS",
+"keywords": ["parachute rocket", "flare", "solas", "red"],
+"notes": "≥300 m altitude, ≥40 s burn"
+},
+{
+"impa_code": "332602",
+"description": "Hand flare, red, SOLAS, 3 pcs pack",
+"category": "Safety & Fire Fighting",
+"sub_category": "Pyrotechnics",
+"unit": "SET",
+"keywords": ["hand flare", "red", "solas", "3 pack"],
+"notes": "≥60 s burn"
+},
+{
+"impa_code": "332603",
+"description": "Buoyant orange smoke signal, SOLAS, 3 pcs pack",
+"category": "Safety & Fire Fighting",
+"sub_category": "Pyrotechnics",
+"unit": "SET",
+"keywords": ["smoke signal", "orange", "buoyant", "solas"],
+"notes": "≥3 min smoke"
+},
+{
+"impa_code": "332701",
+"description": "Emergency escape breathing device (EEBD), 10 min",
+"category": "Safety & Fire Fighting",
+"sub_category": "Escape Equipment",
+"unit": "PCS",
+"keywords": ["eebd", "escape breathing", "10 min"],
+"notes": "SOLAS, with hood"
+},
+{
+"impa_code": "332702",
+"description": "Emergency escape ladder, rope, 10 m",
+"category": "Safety & Fire Fighting",
+"sub_category": "Escape Equipment",
+"unit": "PCS",
+"keywords": ["escape ladder", "rope ladder", "10m"],
+"notes": "Wooden rungs"
+},
+{
+"impa_code": "332801",
+"description": "Safety sign, 'Lifejacket locker', photoluminescent",
+"category": "Safety & Fire Fighting",
+"sub_category": "Safety Signage",
+"unit": "PCS",
+"keywords": ["safety sign", "lifejacket", "photoluminescent"],
+"notes": "ISO 24409, 200x200 mm"
+},
+{
+"impa_code": "332802",
+"description": "Safety sign, 'Fire extinguisher', self-adhesive",
+"category": "Safety & Fire Fighting",
+"sub_category": "Safety Signage",
+"unit": "PCS",
+"keywords": ["safety sign", "fire extinguisher", "self-adhesive"],
+"notes": "Red, 150x150 mm"
+},
+{
+"impa_code": "332803",
+"description": "Safety sign, 'Emergency exit', photoluminescent",
+"category": "Safety & Fire Fighting",
+"sub_category": "Safety Signage",
+"unit": "PCS",
+"keywords": ["safety sign", "emergency exit", "photoluminescent"],
+"notes": "ISO 7010"
+},
+{
+"impa_code": "350101",
+"description": "Safety helmet, marine, white, with chin strap",
+"category": "PPE",
+"sub_category": "Head Protection",
+"unit": "PCS",
+"keywords": ["safety helmet", "marine", "white", "chin strap"],
+"notes": "EN 397, adjustable"
+},
+{
+"impa_code": "350102",
+"description": "Safety helmet, with ratchet adjustment, orange",
+"category": "PPE",
+"sub_category": "Head Protection",
+"unit": "PCS",
+"keywords": ["safety helmet", "ratchet", "orange"],
+"notes": "ABS shell"
+},
+{
+"impa_code": "350103",
+"description": "Bump cap, lightweight, with peak",
+"category": "PPE",
+"sub_category": "Head Protection",
+"unit": "PCS",
+"keywords": ["bump cap", "lightweight", "peak"],
+"notes": "For confined spaces"
+},
+{
+"impa_code": "350201",
+"description": "Safety goggles, clear polycarbonate, anti-fog",
+"category": "PPE",
+"sub_category": "Eye Protection",
+"unit": "PCS",
+"keywords": ["safety goggles", "clear", "polycarbonate", "anti-fog"],
+"notes": "EN 166"
+},
+{
+"impa_code": "350202",
+"description": "Safety glasses, tinted, UV protection",
+"category": "PPE",
+"sub_category": "Eye Protection",
+"unit": "PCS",
+"keywords": ["safety glasses", "tinted", "uv", "spectacles"],
+"notes": "Wrap-around"
+},
+{
+"impa_code": "350203",
+"description": "Welding goggles, flip-up, shade 5",
+"category": "PPE",
+"sub_category": "Eye Protection",
+"unit": "PCS",
+"keywords": ["welding goggles", "flip-up", "shade 5"],
+"notes": "Indirect ventilation"
+},
+{
+"impa_code": "350301",
+"description": "Ear plugs, foam corded, SNR 33 dB",
+"category": "PPE",
+"sub_category": "Hearing Protection",
+"unit": "BOX",
+"keywords": ["ear plugs", "foam", "corded", "snr33"],
+"notes": "200 pairs per box"
+},
+{
+"impa_code": "350302",
+"description": "Ear muff, headband, SNR 27 dB",
+"category": "PPE",
+"sub_category": "Hearing Protection",
+"unit": "PCS",
+"keywords": ["ear muff", "headband", "snr27"],
+"notes": "Adjustable"
+},
+{
+"impa_code": "350303",
+"description": "Ear muff, helmet-mounted, SNR 25 dB",
+"category": "PPE",
+"sub_category": "Hearing Protection",
+"unit": "PCS",
+"keywords": ["ear muff", "helmet-mounted", "snr25"],
+"notes": "For use with safety helmet"
+},
+{
+"impa_code": "350401",
+"description": "Disposable respirator, FFP2, valve",
+"category": "PPE",
+"sub_category": "Respiratory Protection",
+"unit": "BOX",
+"keywords": ["respirator", "disposable", "ffp2", "valve"],
+"notes": "20 pcs per box"
+},
+{
+"impa_code": "350402",
+"description": "Half mask respirator, silicone, with replaceable filters",
+"category": "PPE",
+"sub_category": "Respiratory Protection",
+"unit": "PCS",
+"keywords": ["half mask", "respirator", "silicone", "replaceable filter"],
+"notes": "Size M"
+},
+{
+"impa_code": "350403",
+"description": "Filter A2P3, organic vapors/particles, bayonet",
+"category": "PPE",
+"sub_category": "Respiratory Protection",
+"unit": "PR",
+"keywords": ["filter", "a2p3", "organic vapors", "particles", "bayonet"],
+"notes": "Pair pack"
+},
+{
+"impa_code": "350501",
+"description": "Coverall, disposable, Tyvek, hooded, elastic cuffs",
+"category": "PPE",
+"sub_category": "Protective Clothing",
+"unit": "PCS",
+"keywords": ["coverall", "disposable", "tyvek", "hooded"],
+"notes": "Size L, type 5/6"
+},
+{
+"impa_code": "350502",
+"description": "Coverall, flame retardant, cotton, navy",
+"category": "PPE",
+"sub_category": "Protective Clothing",
+"unit": "PCS",
+"keywords": ["coverall", "flame retardant", "cotton", "navy"],
+"notes": "EN ISO 11612, size XL"
+},
+{
+"impa_code": "350503",
+"description": "Chemical protective suit, Category III, Type 3/4",
+"category": "PPE",
+"sub_category": "Protective Clothing",
+"unit": "PCS",
+"keywords": ["chemical suit", "category iii", "type 3", "type 4"],
+"notes": "With attached boot flaps"
+},
+{
+"impa_code": "350504",
+"description": "Hi-vis vest, mesh, Class 2, orange",
+"category": "PPE",
+"sub_category": "Protective Clothing",
+"unit": "PCS",
+"keywords": ["hi-vis vest", "mesh", "class 2", "orange"],
+"notes": "EN 20471"
+},
+{
+"impa_code": "350601",
+"description": "Gloves, rigger, leather palm, cotton back",
+"category": "PPE",
+"sub_category": "Hand Protection",
+"unit": "PR",
+"keywords": ["gloves", "rigger", "leather palm", "cotton back"],
+"notes": "Size 10"
+},
+{
+"impa_code": "350602",
+"description": "Gloves, nitrile, coated palm, seamless liner",
+"category": "PPE",
+"sub_category": "Hand Protection",
+"unit": "PR",
+"keywords": ["gloves", "nitrile", "coated palm", "seamless"],
+"notes": "Size 9, high dexterity"
+},
+{
+"impa_code": "350603",
+"description": "Gloves, chemical resistant, neoprene, flock lined",
+"category": "PPE",
+"sub_category": "Hand Protection",
+"unit": "PR",
+"keywords": ["gloves", "chemical resistant", "neoprene", "flock lined"],
+"notes": "33 cm length"
+},
+{
+"impa_code": "350604",
+"description": "Gloves, welding, gauntlet, cowhide",
+"category": "PPE",
+"sub_category": "Hand Protection",
+"unit": "PR",
+"keywords": ["gloves", "welding", "gauntlet", "cowhide"],
+"notes": "Size 11, heat resistant"
+},
+{
+"impa_code": "350605",
+"description": "Gloves, anti-vibration, with gel padding",
+"category": "PPE",
+"sub_category": "Hand Protection",
+"unit": "PR",
+"keywords": ["gloves", "anti-vibration", "gel padding"],
+"notes": "For chipping hammer"
+},
+{
+"impa_code": "350701",
+"description": "Safety boots, steel toe, midsole, S3, black",
+"category": "PPE",
+"sub_category": "Foot Protection",
+"unit": "PR",
+"keywords": ["safety boots", "steel toe", "midsole", "s3", "black"],
+"notes": "Size 42, waterproof"
+},
+{
+"impa_code": "350702",
+"description": "Safety shoes, composite toe, ESD, antistatic",
+"category": "PPE",
+"sub_category": "Foot Protection",
+"unit": "PR",
+"keywords": ["safety shoes", "composite toe", "esd", "antistatic"],
+"notes": "Size 44"
+},
+{
+"impa_code": "350703",
+"description": "Rubber boots, steel toe, acid resistant, knee-high",
+"category": "PPE",
+"sub_category": "Foot Protection",
+"unit": "PR",
+"keywords": ["rubber boots", "steel toe", "acid resistant", "knee-high"],
+"notes": "Size 43"
+},
+{
+"impa_code": "350801",
+"description": "Fall arrest harness, full body, adjustable, with dorsal D-ring",
+"category": "PPE",
+"sub_category": "Fall Protection",
+"unit": "PCS",
+"keywords": ["fall arrest", "harness", "full body", "dorsal d-ring"],
+"notes": "EN 361"
+},
+{
+"impa_code": "350802",
+"description": "Lanyard, shock absorbing, 2 m, with twin hooks",
+"category": "PPE",
+"sub_category": "Fall Protection",
+"unit": "PCS",
+"keywords": ["lanyard", "shock absorbing", "2m", "twin hooks"],
+"notes": "EN 355"
+},
+{
+"impa_code": "350803",
+"description": "Retractable lifeline, 10 m, stainless steel cable",
+"category": "PPE",
+"sub_category": "Fall Protection",
+"unit": "PCS",
+"keywords": ["retractable lifeline", "10m", "stainless steel", "fall arrester"],
+"notes": "EN 360"
+},
+{
+"impa_code": "350804",
+"description": "Safety harness with integrated seat and leg straps",
+"category": "PPE",
+"sub_category": "Fall Protection",
+"unit": "PCS",
+"keywords": ["harness", "seat", "leg straps", "work positioning"],
+"notes": "EN 358"
+},
+{
+"impa_code": "400101",
+"description": "Combination wrench set, metric, 6-22 mm, 12 pcs",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "SET",
+"keywords": ["combination wrench", "metric", "set", "open end", "ring"],
+"notes": "Chrome vanadium"
+},
+{
+"impa_code": "400102",
+"description": "Adjustable wrench, 250 mm, chrome plated",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "PCS",
+"keywords": ["adjustable wrench", "250mm", "crescent"],
+"notes": "Drop forged"
+},
+{
+"impa_code": "400103",
+"description": "Socket wrench set, 1/2 inch drive, metric, 24 pcs",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "SET",
+"keywords": ["socket wrench", "1/2 drive", "metric", "set"],
+"notes": "Including ratchet and extensions"
+},
+{
+"impa_code": "400104",
+"description": "Allen key set, metric, long arm, 9 pcs",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "SET",
+"keywords": ["allen key", "hex key", "metric", "long arm", "set"],
+"notes": "Chrome vanadium steel"
+},
+{
+"impa_code": "400105",
+"description": "Pipe wrench, 450 mm, cast iron handle",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "PCS",
+"keywords": ["pipe wrench", "450mm", "stillson"],
+"notes": "Adjustable jaw"
+},
+{
+"impa_code": "400201",
+"description": "Screwdriver set, slotted and Phillips, 6 pcs",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "SET",
+"keywords": ["screwdriver", "slotted", "phillips", "set"],
+"notes": "Ergonomic handle"
+},
+{
+"impa_code": "400202",
+"description": "Torx screwdriver, T20, magnetic tip",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "PCS",
+"keywords": ["torx", "screwdriver", "t20", "magnetic"],
+"notes": "200 mm length"
+},
+{
+"impa_code": "400203",
+"description": "Pozidriv screwdriver, PZ2, heavy duty",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "PCS",
+"keywords": ["pozidriv", "screwdriver", "pz2"],
+"notes": "Cushion grip"
+},
+{
+"impa_code": "400301",
+"description": "Combination pliers, 200 mm, insulated",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "PCS",
+"keywords": ["combination pliers", "200mm", "insulated"],
+"notes": "VDE approved"
+},
+{
+"impa_code": "400302",
+"description": "Side cutting pliers, 160 mm, high leverage",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "PCS",
+"keywords": ["side cutters", "pliers", "160mm", "high leverage"],
+"notes": "Induction hardened"
+},
+{
+"impa_code": "400303",
+"description": "Long nose pliers, 150 mm, with cutter",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "PCS",
+"keywords": ["long nose pliers", "150mm", "cutter"],
+"notes": "Drop forged"
+},
+{
+"impa_code": "400304",
+"description": "Vice grip pliers, 250 mm, locking",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "PCS",
+"keywords": ["vice grip", "locking pliers", "250mm"],
+"notes": "With release lever"
+},
+{
+"impa_code": "400401",
+"description": "Ball pein hammer, 500 g, fiberglass handle",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "PCS",
+"keywords": ["ball pein", "hammer", "500g", "fiberglass"],
+"notes": "Drop forged head"
+},
+{
+"impa_code": "400402",
+"description": "Club hammer, 2 kg, with wooden handle",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "PCS",
+"keywords": ["club hammer", "2kg", "lump hammer", "wooden handle"],
+"notes": "For chisels"
+},
+{
+"impa_code": "400403",
+"description": "Rubber mallet, 70 mm diameter, soft face",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "PCS",
+"keywords": ["rubber mallet", "70mm", "soft face"],
+"notes": "Non-marring"
+},
+{
+"impa_code": "400501",
+"description": "Hacksaw, adjustable frame, 300 mm blades",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "PCS",
+"keywords": ["hacksaw", "adjustable", "frame"],
+"notes": "With tension mechanism"
+},
+{
+"impa_code": "400502",
+"description": "Hacksaw blades, 300 mm, 24 TPI, 10 pcs",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "SET",
+"keywords": ["hacksaw blades", "300mm", "24 tpi", "set"],
+"notes": "Bi-metal"
+},
+{
+"impa_code": "400503",
+"description": "Coping saw, with blade",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "PCS",
+"keywords": ["coping saw", "fret saw", "blade"],
+"notes": "150 mm depth"
+},
+{
+"impa_code": "400601",
+"description": "Utility knife, retractable, with snap-off blades",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "PCS",
+"keywords": ["utility knife", "retractable", "snap-off"],
+"notes": "Metal body"
+},
+{
+"impa_code": "400602",
+"description": "Spare blades for utility knife, 100 pcs",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "BOX",
+"keywords": ["utility knife blades", "spare", "snap-off"],
+"notes": "Standard trapezoid"
+},
+{
+"impa_code": "400603",
+"description": "Scissors, heavy duty, 250 mm, stainless steel",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "PCS",
+"keywords": ["scissors", "heavy duty", "250mm", "stainless"],
+"notes": "For canvas and rope"
+},
+{
+"impa_code": "400701",
+"description": "Steel tape measure, 5 m, 19 mm blade",
+"category": "Tools & Hardware",
+"sub_category": "Measuring Tools",
+"unit": "PCS",
+"keywords": ["tape measure", "5m", "steel", "19mm"],
+"notes": "Magnetic hook"
+},
+{
+"impa_code": "400702",
+"description": "Vernier caliper, digital, 150 mm, stainless",
+"category": "Tools & Hardware",
+"sub_category": "Measuring Tools",
+"unit": "PCS",
+"keywords": ["vernier caliper", "digital", "150mm", "stainless"],
+"notes": "0.01 mm resolution"
+},
+{
+"impa_code": "400703",
+"description": "Micrometer, 0-25 mm, mechanical",
+"category": "Tools & Hardware",
+"sub_category": "Measuring Tools",
+"unit": "PCS",
+"keywords": ["micrometer", "0-25mm", "mechanical", "thickness"],
+"notes": "With ratchet stop"
+},
+{
+"impa_code": "400704",
+"description": "Spirit level, 600 mm, aluminum, with 3 vials",
+"category": "Tools & Hardware",
+"sub_category": "Measuring Tools",
+"unit": "PCS",
+"keywords": ["spirit level", "600mm", "aluminum", "vials"],
+"notes": "Accuracy ±0.5 mm/m"
+},
+{
+"impa_code": "400801",
+"description": "Mechanics tool kit, 108 pcs, in metal case",
+"category": "Tools & Hardware",
+"sub_category": "Hand Tools",
+"unit": "SET",
+"keywords": ["tool kit", "mechanics", "108pcs", "set", "metal case"],
+"notes": "Includes sockets, wrenches, screwdrivers, pliers"
+},
+{
+"impa_code": "410101",
+"description": "Electric drill, 13 mm chuck, 650 W, variable speed",
+"category": "Tools & Hardware",
+"sub_category": "Power Tools",
+"unit": "PCS",
+"keywords": ["electric drill", "13mm", "650w", "variable speed"],
+"notes": "With side handle"
+},
+{
+"impa_code": "410102",
+"description": "Cordless drill/driver, 18 V, Li-ion, 2 batteries",
+"category": "Tools & Hardware",
+"sub_category": "Power Tools",
+"unit": "SET",
+"keywords": ["cordless drill", "18v", "li-ion", "driver", "kit"],
+"notes": "Includes charger and case"
+},
+{
+"impa_code": "410103",
+"description": "Impact wrench, 1/2 inch, 450 Nm, pneumatic",
+"category": "Tools & Hardware",
+"sub_category": "Power Tools",
+"unit": "PCS",
+"keywords": ["impact wrench", "1/2 inch", "450nm", "pneumatic"],
+"notes": "Composite housing"
+},
+{
+"impa_code": "410201",
+"description": "Angle grinder, 125 mm, 1000 W, spindle lock",
+"category": "Tools & Hardware",
+"sub_category": "Power Tools",
+"unit": "PCS",
+"keywords": ["angle grinder", "125mm", "1000w", "spindle lock"],
+"notes": "Guard and side handle"
+},
+{
+"impa_code": "410202",
+"description": "Cordless angle grinder, 18 V, 125 mm",
+"category": "Tools & Hardware",
+"sub_category": "Power Tools",
+"unit": "PCS",
+"keywords": ["cordless angle grinder", "18v", "125mm"],
+"notes": "Bare tool, battery sold separately"
+},
+{
+"impa_code": "410301",
+"description": "Jigsaw, 650 W, variable speed, orbital action",
+"category": "Tools & Hardware",
+"sub_category": "Power Tools",
+"unit": "PCS",
+"keywords": ["jigsaw", "650w", "orbital", "variable speed"],
+"notes": "With dust blower"
+},
+{
+"impa_code": "410302",
+"description": "Circular saw, 1600 W, 184 mm blade",
+"category": "Tools & Hardware",
+"sub_category": "Power Tools",
+"unit": "PCS",
+"keywords": ["circular saw", "1600w", "184mm", "blade"],
+"notes": "Laser guide"
+},
+{
+"impa_code": "410401",
+"description": "Orbital sander, 250 W, 125 mm pad",
+"category": "Tools & Hardware",
+"sub_category": "Power Tools",
+"unit": "PCS",
+"keywords": ["orbital sander", "250w", "125mm"],
+"notes": "Dust bag included"
+},
+{
+"impa_code": "410501",
+"description": "Inverter welding machine, MMA, 200 A, digital display",
+"category": "Tools & Hardware",
+"sub_category": "Welding & Cutting",
+"unit": "PCS",
+"keywords": ["welding machine", "mma", "inverter", "200a"],
+"notes": "220/230V, duty cycle 60%"
+},
+{
+"impa_code": "410502",
+"description": "MIG/MAG welder, 250 A, 400 V, 3-phase",
+"category": "Tools & Hardware",
+"sub_category": "Welding & Cutting",
+"unit": "PCS",
+"keywords": ["mig welder", "mag", "250a", "3-phase"],
+"notes": "Euro torch connector"
+},
+{
+"impa_code": "410503",
+"description": "TIG welder, AC/DC, 200 A, pulse function",
+"category": "Tools & Hardware",
+"sub_category": "Welding & Cutting",
+"unit": "PCS",
+"keywords": ["tig welder", "ac/dc", "200a", "pulse"],
+"notes": "With water cooler option"
+},
+{
+"impa_code": "420101",
+"description": "Engineer's bench vice, 150 mm jaw width, swivel base",
+"category": "Tools & Hardware",
+"sub_category": "Workshop Equipment",
+"unit": "PCS",
+"keywords": ["bench vice", "engineer vice", "150mm", "swivel base"],
+"notes": "Cast iron, with anvil"
+},
+{
+"impa_code": "420102",
+"description": "Machine vice, 100 mm, precision ground",
+"category": "Tools & Hardware",
+"sub_category": "Workshop Equipment",
+"unit": "PCS",
+"keywords": ["machine vice", "100mm", "precision", "milling"],
+"notes": "For drill press/milling machine"
+},
+{
+"impa_code": "420201",
+"description": "Hydraulic bottle jack, 10 ton, with handle",
+"category": "Tools & Hardware",
+"sub_category": "Workshop Equipment",
+"unit": "PCS",
+"keywords": ["bottle jack", "hydraulic", "10 ton"],
+"notes": "Lifting height 200-400 mm"
+},
+{
+"impa_code": "420202",
+"description": "Trolley jack, 2 ton, low profile",
+"category": "Tools & Hardware",
+"sub_category": "Workshop Equipment",
+"unit": "PCS",
+"keywords": ["trolley jack", "2 ton", "low profile", "floor jack"],
+"notes": "Dual pump"
+},
+{
+"impa_code": "420301",
+"description": "Chain hoist, manual, 1 ton, 3 m lift",
+"category": "Tools & Hardware",
+"sub_category": "Workshop Equipment",
+"unit": "PCS",
+"keywords": ["chain hoist", "manual", "1 ton", "3m"],
+"notes": "Load chain"
+},
+{
+"impa_code": "420302",
+"description": "Lever hoist, 1.5 ton, 1.5 m lift",
+"category": "Tools & Hardware",
+"sub_category": "Workshop Equipment",
+"unit": "PCS",
+"keywords": ["lever hoist", "come along", "1.5 ton", "1.5m"],
+"notes": "With overload protection"
+},
+{
+"impa_code": "430101",
+"description": "Hex bolt, galvanized, M10 x 40 mm, full thread, pack 100",
+"category": "Tools & Hardware",
+"sub_category": "Fasteners",
+"unit": "BOX",
+"keywords": ["hex bolt", "galvanized", "m10", "40mm", "full thread"],
+"notes": "ISO 4017"
+},
+{
+"impa_code": "430102",
+"description": "Hex bolt, stainless A4, M12 x 50 mm, partial thread",
+"category": "Tools & Hardware",
+"sub_category": "Fasteners",
+"unit": "BOX",
+"keywords": ["hex bolt", "stainless", "a4", "m12", "50mm"],
+"notes": "ISO 4014, marine grade"
+},
+{
+"impa_code": "430103",
+"description": "Carriage bolt, galvanized, M8 x 60 mm",
+"category": "Tools & Hardware",
+"sub_category": "Fasteners",
+"unit": "BOX",
+"keywords": ["carriage bolt", "galvanized", "m8", "60mm"],
+"notes": "Square neck"
+},
+{
+"impa_code": "430201",
+"description": "Hex nut, galvanized, M10, pack 100",
+"category": "Tools & Hardware",
+"sub_category": "Fasteners",
+"unit": "BOX",
+"keywords": ["hex nut", "galvanized", "m10"],
+"notes": "ISO 4032"
+},
+{
+"impa_code": "430202",
+"description": "Nyloc nut, stainless A4, M12, self-locking",
+"category": "Tools & Hardware",
+"sub_category": "Fasteners",
+"unit": "BOX",
+"keywords": ["nyloc nut", "stainless", "a4", "m12", "self-locking"],
+"notes": "Nylon insert"
+},
+{
+"impa_code": "430203",
+"description": "Wing nut, galvanized, M8",
+"category": "Tools & Hardware",
+"sub_category": "Fasteners",
+"unit": "BOX",
+"keywords": ["wing nut", "galvanized", "m8"],
+"notes": "Quick release"
+},
+{
+"impa_code": "430301",
+"description": "Flat washer, galvanized, M10, pack 100",
+"category": "Tools & Hardware",
+"sub_category": "Fasteners",
+"unit": "BOX",
+"keywords": ["flat washer", "galvanized", "m10"],
+"notes": "ISO 7089"
+},
+{
+"impa_code": "430302",
+"description": "Spring washer, stainless A4, M12, pack 50",
+"category": "Tools & Hardware",
+"sub_category": "Fasteners",
+"unit": "BOX",
+"keywords": ["spring washer", "stainless", "a4", "m12"],
+"notes": "ISO 7090"
+},
+{
+"impa_code": "430401",
+"description": "Pan head screw, Phillips, M5 x 20 mm, zinc, pack 100",
+"category": "Tools & Hardware",
+"sub_category": "Fasteners",
+"unit": "BOX",
+"keywords": ["pan head", "screw", "phillips", "m5", "20mm"],
+"notes": "Self-tapping"
+},
+{
+"impa_code": "430402",
+"description": "Countersunk screw, slotted, M6 x 30 mm, stainless",
+"category": "Tools & Hardware",
+"sub_category": "Fasteners",
+"unit": "BOX",
+"keywords": ["countersunk", "screw", "slotted", "m6", "30mm"],
+"notes": "A2"
+},
+{
+"impa_code": "430501",
+"description": "Pop rivet, aluminum, 4.8 x 16 mm, pack 200",
+"category": "Tools & Hardware",
+"sub_category": "Fasteners",
+"unit": "BOX",
+"keywords": ["pop rivet", "aluminum", "4.8mm", "16mm"],
+"notes": "Open end"
+},
+{
+"impa_code": "430502",
+"description": "Rivet nut, steel, M8, with installation tool",
+"category": "Tools & Hardware",
+"sub_category": "Fasteners",
+"unit": "SET",
+"keywords": ["rivet nut", "steel", "m8", "installation tool"],
+"notes": "For thin sheet"
+},
+{
+"impa_code": "440101",
+"description": "Welding electrode, E6013, 3.2 x 350 mm, 5 kg",
+"category": "Tools & Hardware",
+"sub_category": "Welding & Cutting",
+"unit": "BOX",
+"keywords": ["welding electrode", "e6013", "3.2mm", "350mm"],
+"notes": "Rutile coated"
+},
+{
+"impa_code": "440102",
+"description": "Welding electrode, E7018, 4.0 x 450 mm, low hydrogen, 5 kg",
+"category": "Tools & Hardware",
+"sub_category": "Welding & Cutting",
+"unit": "BOX",
+"keywords": ["welding electrode", "e7018", "4.0mm", "low hydrogen"],
+"notes": "For structural steel"
+},
+{
+"impa_code": "440201",
+"description": "MIG wire, ER70S-6, 0.8 mm, 15 kg spool",
+"category": "Tools & Hardware",
+"sub_category": "Welding & Cutting",
+"unit": "PCS",
+"keywords": ["mig wire", "er70s-6", "0.8mm", "spool"],
+"notes": "Copper coated"
+},
+{
+"impa_code": "440202",
+"description": "Flux cored wire, E71T-1, 1.2 mm, 12.5 kg spool",
+"category": "Tools & Hardware",
+"sub_category": "Welding & Cutting",
+"unit": "PCS",
+"keywords": ["flux cored", "e71t-1", "1.2mm", "spool"],
+"notes": "Gas shielded"
+},
+{
+"impa_code": "440301",
+"description": "Oxygen cylinder, 10 L, 200 bar, with valve",
+"category": "Tools & Hardware",
+"sub_category": "Welding & Cutting",
+"unit": "PCS",
+"keywords": ["oxygen", "cylinder", "10l", "200 bar"],
+"notes": "Empty, test certified"
+},
+{
+"impa_code": "440302",
+"description": "Acetylene cylinder, 5 L, with porous mass",
+"category": "Tools & Hardware",
+"sub_category": "Welding & Cutting",
+"unit": "PCS",
+"keywords": ["acetylene", "cylinder", "5l"],
+"notes": "Empty, with valve protection cap"
+},
+{
+"impa_code": "440401",
+"description": "Cutting torch, hand held, with 5 nozzles",
+"category": "Tools & Hardware",
+"sub_category": "Welding & Cutting",
+"unit": "SET",
+"keywords": ["cutting torch", "hand held", "nozzles"],
+"notes": "Oxy-acetylene"
+},
+{
+"impa_code": "440402",
+"description": "Welding torch, TIG, air cooled, 200 A",
+"category": "Tools & Hardware",
+"sub_category": "Welding & Cutting",
+"unit": "PCS",
+"keywords": ["tig torch", "air cooled", "200a"],
+"notes": "With 4 m cable"
+},
+{
+"impa_code": "460101",
+"description": "Shipboard power cable, 3x2.5 mm², 0.6/1 kV, drum 100 m",
+"category": "Electrical Equipment",
+"sub_category": "Cables & Wires",
+"unit": "DRM",
+"keywords": ["power cable", "3x2.5", "0.6/1kV", "marine", "drum"],
+"notes": "IEC 60092, tinned copper"
+},
+{
+"impa_code": "460102",
+"description": "Control cable, 12x1.5 mm², screened, drum 50 m",
+"category": "Electrical Equipment",
+"sub_category": "Cables & Wires",
+"unit": "DRM",
+"keywords": ["control cable", "12x1.5", "screened", "drum"],
+"notes": "LSZH sheath"
+},
+{
+"impa_code": "460103",
+"description": "Instrumentation cable, pair, 1x2x0.75 mm², shielded",
+"category": "Electrical Equipment",
+"sub_category": "Cables & Wires",
+"unit": "M",
+"keywords": ["instrumentation cable", "pair", "0.75mm²", "shielded"],
+"notes": "Sold per meter"
+},
+{
+"impa_code": "460301",
+"description": "Marine connector, 4-pin, IP68, 16 A",
+"category": "Electrical Equipment",
+"sub_category": "Connectors",
+"unit": "PCS",
+"keywords": ["connector", "4-pin", "ip68", "16a"],
+"notes": "Pin and sleeve"
+},
+{
+"impa_code": "460302",
+"description": "Bulkhead connector, 2-pole, 32 A, IP67",
+"category": "Electrical Equipment",
+"sub_category": "Connectors",
+"unit": "PCS",
+"keywords": ["bulkhead connector", "2-pole", "32a", "ip67"],
+"notes": "For deck pass-through"
+},
+{
+"impa_code": "460303",
+"description": "RJ45 coupler, IP66, marine grade",
+"category": "Electrical Equipment",
+"sub_category": "Connectors",
+"unit": "PCS",
+"keywords": ["rj45", "coupler", "ip66", "marine", "ethernet"],
+"notes": "Cat6"
+},
+{
+"impa_code": "460401",
+"description": "Shore power inlet, 63 A, 400 V, 3-phase, IP44",
+"category": "Electrical Equipment",
+"sub_category": "Plugs & Sockets",
+"unit": "PCS",
+"keywords": ["shore power", "inlet", "63a", "400v", "3-phase", "ip44"],
+"notes": "With hinged cover"
+},
+{
+"impa_code": "460402",
+"description": "Industrial plug, 16 A, 230 V, IP44",
+"category": "Electrical Equipment",
+"sub_category": "Plugs & Sockets",
+"unit": "PCS",
+"keywords": ["industrial plug", "16a", "230v", "ip44"],
+"notes": "2P+E"
+},
+{
+"impa_code": "460403",
+"description": "Socket outlet, 2-gang, 16 A, 230 V, IP56",
+"category": "Electrical Equipment",
+"sub_category": "Plugs & Sockets",
+"unit": "PCS",
+"keywords": ["socket outlet", "2-gang", "16a", "ip56"],
+"notes": "With cover"
+},
+{
+"impa_code": "460501",
+"description": "Toggle switch, single pole, 10 A, 250 V, waterproof cap",
+"category": "Electrical Equipment",
+"sub_category": "Switches",
+"unit": "PCS",
+"keywords": ["toggle switch", "sp", "10a", "waterproof"],
+"notes": "On-off"
+},
+{
+"impa_code": "460502",
+"description": "Rotary switch, 3-position, 20 A, 600 V",
+"category": "Electrical Equipment",
+"sub_category": "Switches",
+"unit": "PCS",
+"keywords": ["rotary switch", "3-position", "20a", "600v"],
+"notes": "Cam switch"
+},
+{
+"impa_code": "460503",
+"description": "Limit switch, roller plunger, IP67",
+"category": "Electrical Equipment",
+"sub_category": "Switches",
+"unit": "PCS",
+"keywords": ["limit switch", "roller plunger", "ip67"],
+"notes": "Snap action"
+},
+{
+"impa_code": "460601",
+"description": "Circuit breaker, 10 A, 1-pole, C-curve, DIN rail",
+"category": "Electrical Equipment",
+"sub_category": "Circuit Breakers",
+"unit": "PCS",
+"keywords": ["circuit breaker", "10a", "1-pole", "c-curve", "din rail"],
+"notes": "6 kA breaking capacity"
+},
+{
+"impa_code": "460602",
+"description": "Molded case circuit breaker, 100 A, 3-pole, 600 V",
+"category": "Electrical Equipment",
+"sub_category": "Circuit Breakers",
+"unit": "PCS",
+"keywords": ["mccb", "100a", "3-pole", "600v"],
+"notes": "Adjustable thermal-magnetic"
+},
+{
+"impa_code": "460603",
+"description": "Residual current device, 40 A, 30 mA, 2-pole",
+"category": "Electrical Equipment",
+"sub_category": "Circuit Breakers",
+"unit": "PCS",
+"keywords": ["rcd", "residual current", "40a", "30ma"],
+"notes": "AC type"
+},
+{
+"impa_code": "460701",
+"description": "Fuse, cartridge, 10 A, 500 V, 10x38 mm",
+"category": "Electrical Equipment",
+"sub_category": "Fuses",
+"unit": "BOX",
+"keywords": ["fuse", "cartridge", "10a", "500v", "10x38mm"],
+"notes": "gG class"
+},
+{
+"impa_code": "460702",
+"description": "Fuse, automotive blade, 15 A, pack 10",
+"category": "Electrical Equipment",
+"sub_category": "Fuses",
+"unit": "BOX",
+"keywords": ["fuse", "automotive", "blade", "15a"],
+"notes": "ATO type"
+},
+{
+"impa_code": "460801",
+"description": "Isolation transformer, 5 kVA, 230/230 V, marine",
+"category": "Electrical Equipment",
+"sub_category": "Transformers",
+"unit": "PCS",
+"keywords": ["isolation transformer", "5kva", "230v", "marine"],
+"notes": "Galvanic isolation"
+},
+{
+"impa_code": "460802",
+"description": "Control transformer, 250 VA, 440/230 V",
+"category": "Electrical Equipment",
+"sub_category": "Transformers",
+"unit": "PCS",
+"keywords": ["control transformer", "250va", "440v", "230v"],
+"notes": "For AC control circuits"
+},
+{
+"impa_code": "460901",
+"description": "Electric motor, 3-phase, 5.5 kW, 400 V, 1500 rpm, B3",
+"category": "Electrical Equipment",
+"sub_category": "Motors",
+"unit": "PCS",
+"keywords": ["electric motor", "3-phase", "5.5kw", "400v", "1500rpm", "b3"],
+"notes": "IE3, foot mounted"
+},
+{
+"impa_code": "460902",
+"description": "Marine duty motor, 1.1 kW, 230/400 V, IP56",
+"category": "Electrical Equipment",
+"sub_category": "Motors",
+"unit": "PCS",
+"keywords": ["marine motor", "1.1kw", "ip56"],
+"notes": "For pump or fan"
+},
+{
+"impa_code": "461001",
+"description": "Marine alternator, 24 V, 100 A, with regulator",
+"category": "Electrical Equipment",
+"sub_category": "Generators",
+"unit": "PCS",
+"keywords": ["alternator", "24v", "100a", "marine"],
+"notes": "For auxiliary diesel"
+},
+{
+"impa_code": "461002",
+"description": "Generator set, 20 kVA, 50 Hz, 230/400 V, diesel",
+"category": "Electrical Equipment",
+"sub_category": "Generators",
+"unit": "SET",
+"keywords": ["genset", "20kva", "diesel", "marine"],
+"notes": "With soundproof canopy"
+},
+{
+"impa_code": "461101",
+"description": "Marine battery, 12 V, 200 Ah, deep cycle",
+"category": "Electrical Equipment",
+"sub_category": "Batteries",
+"unit": "PCS",
+"keywords": ["battery", "12v", "200ah", "deep cycle"],
+"notes": "Flooded lead-acid"
+},
+{
+"impa_code": "461102",
+"description": "AGM battery, 12 V, 100 Ah, maintenance free",
+"category": "Electrical Equipment",
+"sub_category": "Batteries",
+"unit": "PCS",
+"keywords": ["agm", "battery", "12v", "100ah", "maintenance free"],
+"notes": "For backup"
+},
+{
+"impa_code": "461201",
+"description": "Battery charger, 24 V, 30 A, 3-stage, marine",
+"category": "Electrical Equipment",
+"sub_category": "Battery Chargers",
+"unit": "PCS",
+"keywords": ["battery charger", "24v", "30a", "3-stage", "marine"],
+"notes": "IP22, with temperature compensation"
+},
+{
+"impa_code": "461202",
+"description": "Battery combiner, 12/24 V, 140 A",
+"category": "Electrical Equipment",
+"sub_category": "Battery Chargers",
+"unit": "PCS",
+"keywords": ["battery combiner", "12v", "24v", "140a"],
+"notes": "Automatic isolation"
+},
+{
+"impa_code": "461301",
+"description": "LED cabin light, round, 12/24 V, 6 W, white",
+"category": "Electrical Equipment",
+"sub_category": "Lighting",
+"unit": "PCS",
+"keywords": ["led", "cabin light", "12v", "24v", "6w"],
+"notes": "Flush mount, IP44"
+},
+{
+"impa_code": "461302",
+"description": "LED strip light, 600 mm, 10 W, 24 V, cool white",
+"category": "Electrical Equipment",
+"sub_category": "Lighting",
+"unit": "PCS",
+"keywords": ["led strip", "600mm", "10w", "24v"],
+"notes": "Self-adhesive"
+},
+{
+"impa_code": "461401",
+"description": "Floodlight, LED, 50 W, 220 V, IP66",
+"category": "Electrical Equipment",
+"sub_category": "Lighting",
+"unit": "PCS",
+"keywords": ["floodlight", "led", "50w", "220v", "ip66"],
+"notes": "Marine grade aluminum"
+},
+{
+"impa_code": "461402",
+"description": "Searchlight, remote control, xenon, 100 W, 24 V",
+"category": "Electrical Equipment",
+"sub_category": "Lighting",
+"unit": "PCS",
+"keywords": ["searchlight", "remote control", "xenon", "100w", "24v"],
+"notes": "360° rotation, 70° tilt"
+},
+{
+"impa_code": "461501",
+"description": "Navigation light, port, red, 12/24 V, LED",
+"category": "Electrical Equipment",
+"sub_category": "Lighting",
+"unit": "PCS",
+"keywords": ["navigation light", "port", "red", "12v", "24v", "led"],
+"notes": "COLREG, 2 NM visibility"
+},
+{
+"impa_code": "461502",
+"description": "Navigation light, starboard, green, LED",
+"category": "Electrical Equipment",
+"sub_category": "Lighting",
+"unit": "PCS",
+"keywords": ["navigation light", "starboard", "green", "led"],
+"notes": "2 NM"
+},
+{
+"impa_code": "461503",
+"description": "Anchor light, white, 360°, LED, 12/24 V",
+"category": "Electrical Equipment",
+"sub_category": "Lighting",
+"unit": "PCS",
+"keywords": ["anchor light", "white", "360°", "led"],
+"notes": "2 NM"
+},
+{
+"impa_code": "461504",
+"description": "Masthead light, white, 225°, LED, 12/24 V",
+"category": "Electrical Equipment",
+"sub_category": "Lighting",
+"unit": "PCS",
+"keywords": ["masthead light", "white", "225°", "led"],
+"notes": "3 NM"
+},
+{
+"impa_code": "461701",
+"description": "LED bulb, E27, 10 W, 3000K, warm white",
+"category": "Electrical Equipment",
+"sub_category": "Lighting",
+"unit": "PCS",
+"keywords": ["led bulb", "e27", "10w", "3000k"],
+"notes": "AC 220-240V"
+},
+{
+"impa_code": "461801",
+"description": "Fluorescent tube, 18 W, 600 mm, cool white",
+"category": "Electrical Equipment",
+"sub_category": "Lighting",
+"unit": "PCS",
+"keywords": ["fluorescent", "tube", "18w", "600mm"],
+"notes": "G13 base"
+},
+{
+"impa_code": "461901",
+"description": "Main switchboard section, 400 V, 800 A, with breakers",
+"category": "Electrical Equipment",
+"sub_category": "Panels",
+"unit": "SET",
+"keywords": ["switchboard", "400v", "800a", "breakers", "marine"],
+"notes": "Custom built per specification"
+},
+{
+"impa_code": "461902",
+"description": "Distribution panel, 24 V, 12 way, with MCBs",
+"category": "Electrical Equipment",
+"sub_category": "Panels",
+"unit": "PCS",
+"keywords": ["distribution panel", "24v", "12 way", "mcb"],
+"notes": "Enclosed IP22"
+},
+{
+"impa_code": "462001",
+"description": "DC-AC inverter, pure sine, 12 V DC to 230 V AC, 1000 W",
+"category": "Electrical Equipment",
+"sub_category": "Inverters",
+"unit": "PCS",
+"keywords": ["inverter", "dc-ac", "pure sine", "12v", "230v", "1000w"],
+"notes": "With remote control"
+},
+{
+"impa_code": "462101",
+"description": "DC-DC converter, 24 V to 12 V, 20 A",
+"category": "Electrical Equipment",
+"sub_category": "Converters",
+"unit": "PCS",
+"keywords": ["dc-dc converter", "24v", "12v", "20a"],
+"notes": "Isolated"
+},
+{
+"impa_code": "462201",
+"description": "Bilge water sensor, float switch, 24 V, 10 A",
+"category": "Electrical Equipment",
+"sub_category": "Sensors",
+"unit": "PCS",
+"keywords": ["bilge sensor", "float switch", "24v", "10a"],
+"notes": "Vertical mount"
+},
+{
+"impa_code": "462202",
+"description": "Temperature sensor, PT100, -50 to 200°C",
+"category": "Electrical Equipment",
+"sub_category": "Sensors",
+"unit": "PCS",
+"keywords": ["temperature sensor", "pt100", "rtd"],
+"notes": "3-wire, with transmitter"
+},
+{
+"impa_code": "462203",
+"description": "Pressure transmitter, 0-10 bar, 4-20 mA, G1/4",
+"category": "Electrical Equipment",
+"sub_category": "Sensors",
+"unit": "PCS",
+"keywords": ["pressure transmitter", "0-10bar", "4-20ma"],
+"notes": "For hydraulic systems"
+},
+{
+"impa_code": "462301",
+"description": "Audible alarm, 90 dB, 24 V, red flashing",
+"category": "Electrical Equipment",
+"sub_category": "Alarms",
+"unit": "PCS",
+"keywords": ["audible alarm", "90db", "24v", "flashing"],
+"notes": "IP66, marine"
+},
+{
+"impa_code": "462302",
+"description": "Engine alarm panel, with buzzer and lamp test",
+"category": "Electrical Equipment",
+"sub_category": "Alarms",
+"unit": "PCS",
+"keywords": ["engine alarm", "panel", "buzzer", "lamp test"],
+"notes": "For temperature, pressure, level"
+},
+{
+"impa_code": "520101",
+"description": "Nylon mooring line, 3-strand, 24 mm, 220 m coil",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Mooring Lines",
+"unit": "PCS",
+"keywords": ["nylon", "mooring line", "3-strand", "24mm", "coil"],
+"notes": "Breaking load 32 t"
+},
+{
+"impa_code": "520102",
+"description": "Polypropylene rope, 8-plait, 16 mm, 200 m coil",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Mooring Lines",
+"unit": "PCS",
+"keywords": ["polypropylene", "8-plait", "16mm", "rope"],
+"notes": "Floating"
+},
+{
+"impa_code": "520103",
+"description": "HMPE mooring line, 12-strand, 20 mm, 220 m",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Mooring Lines",
+"unit": "PCS",
+"keywords": ["hmpe", "dyneema", "mooring", "12-strand", "20mm"],
+"notes": "Low stretch, high strength"
+},
+{
+"impa_code": "520201",
+"description": "Mooring tail, nylon, 36 mm, 11 m, spliced eye both ends",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Mooring Lines",
+"unit": "PCS",
+"keywords": ["mooring tail", "nylon", "36mm", "11m", "spliced"],
+"notes": "For shock absorption"
+},
+{
+"impa_code": "520301",
+"description": "Galvanized wire rope, 6x36, 16 mm, drum 500 m",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Mooring Lines",
+"unit": "DRM",
+"keywords": ["wire rope", "galvanized", "6x36", "16mm", "drum"],
+"notes": "IWRC"
+},
+{
+"impa_code": "520302",
+"description": "Stainless steel wire rope, 7x19, 8 mm, coil 100 m",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Mooring Lines",
+"unit": "PCS",
+"keywords": ["wire rope", "stainless", "7x19", "8mm"],
+"notes": "For rigging"
+},
+{
+"impa_code": "520401",
+"description": "Stockless anchor, 500 kg, with shackle",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Anchors & Chains",
+"unit": "SET",
+"keywords": ["stockless anchor", "500kg", "shackle"],
+"notes": "Grade 2"
+},
+{
+"impa_code": "520402",
+"description": "High holding power anchor, 300 kg",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Anchors & Chains",
+"unit": "PCS",
+"keywords": ["hhp anchor", "300kg", "high holding"],
+"notes": "Approved by class"
+},
+{
+"impa_code": "520403",
+"description": "Danforth anchor, aluminum, 20 kg, for tender",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Anchors & Chains",
+"unit": "PCS",
+"keywords": ["danforth", "anchor", "aluminum", "20kg"],
+"notes": "Fluke type"
+},
+{
+"impa_code": "520501",
+"description": "Anchor chain, stud link, 32 mm, grade 3, 27.5 m length",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Anchors & Chains",
+"unit": "PCS",
+"keywords": ["anchor chain", "stud link", "32mm", "grade 3"],
+"notes": "With common link, end link"
+},
+{
+"impa_code": "520502",
+"description": "Chain stopper, for 32 mm chain, galvanized",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Anchors & Chains",
+"unit": "PCS",
+"keywords": ["chain stopper", "32mm", "galvanized"],
+"notes": "With pawl"
+},
+{
+"impa_code": "520601",
+"description": "Shackle, D type, galvanized, 25 mm, SWL 3.2 t",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Deck Fittings",
+"unit": "PCS",
+"keywords": ["shackle", "d type", "galvanized", "25mm", "swl 3.2t"],
+"notes": "Bolt type"
+},
+{
+"impa_code": "520602",
+"description": "Bow shackle, stainless A4, 12 mm, SWL 1 t",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Deck Fittings",
+"unit": "PCS",
+"keywords": ["bow shackle", "stainless", "a4", "12mm"],
+"notes": "Screw pin"
+},
+{
+"impa_code": "520701",
+"description": "Turnbuckle, jaw & jaw, galvanized, M20, 450 mm",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Deck Fittings",
+"unit": "PCS",
+"keywords": ["turnbuckle", "jaw & jaw", "galvanized", "m20"],
+"notes": "For rigging"
+},
+{
+"impa_code": "520702",
+"description": "Turnbuckle, hook & eye, stainless, M16",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Deck Fittings",
+"unit": "PCS",
+"keywords": ["turnbuckle", "hook & eye", "stainless", "m16"],
+"notes": "Adjustable"
+},
+{
+"impa_code": "520801",
+"description": "Wire rope thimble, galvanized, for 16 mm rope",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Deck Fittings",
+"unit": "PCS",
+"keywords": ["thimble", "wire rope", "galvanized", "16mm"],
+"notes": "Heavy duty"
+},
+{
+"impa_code": "520901",
+"description": "Double bitt cleat, cast steel, 500 mm, galvanized",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Deck Fittings",
+"unit": "PCS",
+"keywords": ["cleat", "double bitt", "cast steel", "500mm"],
+"notes": "For mooring"
+},
+{
+"impa_code": "520902",
+"description": "Horn cleat, stainless, 250 mm",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Deck Fittings",
+"unit": "PCS",
+"keywords": ["horn cleat", "stainless", "250mm"],
+"notes": "Polished"
+},
+{
+"impa_code": "521001",
+"description": "Bollard, closed, 400 mm height, galvanized",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Deck Fittings",
+"unit": "PCS",
+"keywords": ["bollard", "closed", "400mm", "galvanized"],
+"notes": "For quayside"
+},
+{
+"impa_code": "521101",
+"description": "Roller fairlead, galvanized, with 2 vertical rollers",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Deck Fittings",
+"unit": "PCS",
+"keywords": ["fairlead", "roller", "galvanized", "2 rollers"],
+"notes": "For 24 mm rope"
+},
+{
+"impa_code": "521102",
+"description": "Open fairlead, stainless, 300 mm",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Deck Fittings",
+"unit": "PCS",
+"keywords": ["fairlead", "open", "stainless", "300mm"],
+"notes": "Bollard type"
+},
+{
+"impa_code": "521301",
+"description": "Pneumatic fender, 1.5 m x 1.0 m, with chains",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Fenders",
+"unit": "PCS",
+"keywords": ["pneumatic fender", "1.5m", "1.0m", "chains"],
+"notes": "Yoke type"
+},
+{
+"impa_code": "521302",
+"description": "Foam filled fender, 2.0 m x 1.2 m, heavy duty",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Fenders",
+"unit": "PCS",
+"keywords": ["foam fender", "2.0m", "1.2m", "sinking"],
+"notes": "With tyre net"
+},
+{
+"impa_code": "521303",
+"description": "Solid rubber fender, D type, 300x300 mm, 5 m length",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Fenders",
+"unit": "M",
+"keywords": ["rubber fender", "d type", "300x300mm"],
+"notes": "Sold per meter"
+},
+{
+"impa_code": "521601",
+"description": "Fender chain, galvanized, 16 mm, 2 m with hooks",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Fenders",
+"unit": "PCS",
+"keywords": ["fender chain", "galvanized", "16mm", "2m"],
+"notes": "For pneumatic fender"
+},
+{
+"impa_code": "521701",
+"description": "Tarpaulin, heavy duty, PVC coated, 5x6 m, with eyelets",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Tarpaulins",
+"unit": "PCS",
+"keywords": ["tarpaulin", "pvc", "heavy duty", "5x6m", "eyelets"],
+"notes": "Waterproof, UV resistant"
+},
+{
+"impa_code": "521702",
+"description": "Hatch cover tarp, 10x10 m, reinforced edges",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Tarpaulins",
+"unit": "PCS",
+"keywords": ["hatch cover", "tarp", "10x10m", "reinforced"],
+"notes": "Olive green"
+},
+{
+"impa_code": "521801",
+"description": "Lashing chain, grade 8, 13 mm, 3 m with hooks",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Lashing Gear",
+"unit": "PCS",
+"keywords": ["lashing chain", "grade 8", "13mm", "3m", "hooks"],
+"notes": "For securing cargo"
+},
+{
+"impa_code": "521802",
+"description": "Ratchet tie down, 5 m, 2500 daN",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Lashing Gear",
+"unit": "PCS",
+"keywords": ["ratchet tie down", "5m", "2500dan"],
+"notes": "With flat hooks"
+},
+{
+"impa_code": "521803",
+"description": "Lashing belt, 50 mm, 6 m, with tensioner",
+"category": "Deck & Mooring Equipment",
+"sub_category": "Lashing Gear",
+"unit": "PCS",
+"keywords": ["lashing belt", "50mm", "6m", "tensioner"],
+"notes": "For container"
+},
+{
+"impa_code": "220101",
+"description": "Piston, complete with rings, for MAN B&W 6S35MC",
+"category": "Engine & Machinery",
+"sub_category": "Engine Parts",
+"unit": "SET",
+"keywords": ["piston", "man b&w", "6s35mc", "complete"],
+"notes": "Original or OEM quality"
+},
+{
+"impa_code": "220102",
+"description": "Piston ring set, for 350 mm bore, 3 comp + 1 oil",
+"category": "Engine & Machinery",
+"sub_category": "Engine Parts",
+"unit": "SET",
+"keywords": ["piston rings", "350mm", "compression", "oil"],
+"notes": "Ductile iron"
+},
+{
+"impa_code": "220201",
+"description": "Cylinder liner, wet type, for 6-cylinder engine",
+"category": "Engine & Machinery",
+"sub_category": "Engine Parts",
+"unit": "PCS",
+"keywords": ["cylinder liner", "wet type", "marine diesel"],
+"notes": "Cast iron, induction hardened"
+},
+{
+"impa_code": "220301",
+"description": "Connecting rod, with bearing shells, for Wärtsilä 4L20",
+"category": "Engine & Machinery",
+"sub_category": "Engine Parts",
+"unit": "PCS",
+"keywords": ["connecting rod", "wartsila 4l20", "bearing shells"],
+"notes": "Forged steel"
+},
+{
+"impa_code": "220401",
+"description": "Main bearing set, for Caterpillar 3508",
+"category": "Engine & Machinery",
+"sub_category": "Engine Parts",
+"unit": "SET",
+"keywords": ["main bearing", "caterpillar 3508", "set"],
+"notes": "Tri-metal"
+},
+{
+"impa_code": "220501",
+"description": "Engine valve, inlet, for Yanmar 6EY18",
+"category": "Engine & Machinery",
+"sub_category": "Engine Parts",
+"unit": "PCS",
+"keywords": ["valve", "inlet", "yanmar", "6ey18"],
+"notes": "Stainless steel"
+},
+{
+"impa_code": "220502",
+"description": "Engine valve, exhaust, nimonic, for high temp",
+"category": "Engine & Machinery",
+"sub_category": "Engine Parts",
+"unit": "PCS",
+"keywords": ["valve", "exhaust", "nimonic"],
+"notes": "With stellite seat"
+},
+{
+"impa_code": "220601",
+"description": "Valve guide, bronze, 12 mm ID",
+"category": "Engine & Machinery",
+"sub_category": "Engine Parts",
+"unit": "PCS",
+"keywords": ["valve guide", "bronze", "12mm"],
+"notes": "For exhaust valve"
+},
+{
+"impa_code": "220701",
+"description": "Cylinder head gasket, for Cummins KTA50",
+"category": "Engine & Machinery",
+"sub_category": "Engine Parts",
+"unit": "PCS",
+"keywords": ["cylinder head gasket", "cummins kta50"],
+"notes": "Multi-layer steel"
+},
+{
+"impa_code": "220702",
+"description": "Exhaust manifold gasket, set, for MAN D2866",
+"category": "Engine & Machinery",
+"sub_category": "Engine Parts",
+"unit": "SET",
+"keywords": ["exhaust manifold gasket", "man d2866", "set"],
+"notes": "Graphite"
+},
+{
+"impa_code": "220801",
+"description": "Oil seal, crankshaft, front, 90x120x12 mm",
+"category": "Engine & Machinery",
+"sub_category": "Engine Parts",
+"unit": "PCS",
+"keywords": ["oil seal", "crankshaft", "90x120x12"],
+"notes": "Viton"
+},
+{
+"impa_code": "221101",
+"description": "Fuel injector, for MTU 4000 series",
+"category": "Engine & Machinery",
+"sub_category": "Fuel System",
+"unit": "PCS",
+"keywords": ["fuel injector", "mtu 4000", "diesel"],
+"notes": "Common rail"
+},
+{
+"impa_code": "221102",
+"description": "Injector nozzle, 6 hole, 0.32 mm",
+"category": "Engine & Machinery",
+"sub_category": "Fuel System",
+"unit": "PCS",
+"keywords": ["injector nozzle", "6 hole", "0.32mm"],
+"notes": "For Bosch type"
+},
+{
+"impa_code": "221201",
+"description": "Fuel transfer pump, gear type, 24 V DC, 12 L/min",
+"category": "Engine & Machinery",
+"sub_category": "Fuel System",
+"unit": "PCS",
+"keywords": ["fuel transfer pump", "gear", "24v", "12l/min"],
+"notes": "With strainer"
+},
+{
+"impa_code": "221202",
+"description": "Fuel injection pump, inline, 6 cylinder",
+"category": "Engine & Machinery",
+"sub_category": "Fuel System",
+"unit": "PCS",
+"keywords": ["fuel injection pump", "inline", "6 cylinder"],
+"notes": "For auxiliary engine"
+},
+{
+"impa_code": "221301",
+"description": "Fuel filter, spin-on, 10 micron, for diesel",
+"category": "Engine & Machinery",
+"sub_category": "Fuel System",
+"unit": "PCS",
+"keywords": ["fuel filter", "spin-on", "10 micron"],
+"notes": "Thread size 1-12 UNF"
+},
+{
+"impa_code": "221302",
+"description": "Fuel/water separator, 30 GPH, with bowl",
+"category": "Engine & Machinery",
+"sub_category": "Fuel System",
+"unit": "PCS",
+"keywords": ["fuel water separator", "30gph", "bowl"],
+"notes": "12V heater optional"
+},
+{
+"impa_code": "221401",
+"description": "Oil filter, cartridge type, for Caterpillar",
+"category": "Engine & Machinery",
+"sub_category": "Lubrication System",
+"unit": "PCS",
+"keywords": ["oil filter", "cartridge", "caterpillar"],
+"notes": "Spin-on"
+},
+{
+"impa_code": "221402",
+"description": "Centrifugal oil filter, self-driven",
+"category": "Engine & Machinery",
+"sub_category": "Lubrication System",
+"unit": "PCS",
+"keywords": ["centrifugal oil filter", "self-driven"],
+"notes": "For main engine"
+},
+{
+"impa_code": "221501",
+"description": "Centrifugal pump, engine cooling, 50 m³/h",
+"category": "Engine & Machinery",
+"sub_category": "Cooling System",
+"unit": "PCS",
+"keywords": ["centrifugal pump", "cooling", "50m³/h"],
+"notes": "Bronze impeller"
+},
+{
+"impa_code": "221502",
+"description": "Raw water pump, impeller type, Jabsco",
+"category": "Engine & Machinery",
+"sub_category": "Cooling System",
+"unit": "PCS",
+"keywords": ["raw water pump", "impeller", "jabsco"],
+"notes": "Neoprene impeller"
+},
+{
+"impa_code": "221601",
+"description": "Heat exchanger, shell and tube, for main engine",
+"category": "Engine & Machinery",
+"sub_category": "Cooling System",
+"unit": "PCS",
+"keywords": ["heat exchanger", "shell and tube", "main engine"],
+"notes": "CuNi tubes"
+},
+{
+"impa_code": "221602",
+"description": "Charge air cooler, for turbocharged engine",
+"category": "Engine & Machinery",
+"sub_category": "Cooling System",
+"unit": "PCS",
+"keywords": ["charge air cooler", "intercooler", "turbo"],
+"notes": "Aluminum fin"
+},
+{
+"impa_code": "221701",
+"description": "Thermostat, 82°C, with gasket",
+"category": "Engine & Machinery",
+"sub_category": "Cooling System",
+"unit": "PCS",
+"keywords": ["thermostat", "82°c", "cooling"],
+"notes": "Wax type"
+},
+{
+"impa_code": "221801",
+"description": "Turbocharger, complete, for MAN 8L32/40",
+"category": "Engine & Machinery",
+"sub_category": "Exhaust System",
+"unit": "PCS",
+"keywords": ["turbocharger", "man 8l32/40", "complete"],
+"notes": "With bearing cartridge"
+},
+{
+"impa_code": "221802",
+"description": "Turbocharger repair kit, includes seals and bearings",
+"category": "Engine & Machinery",
+"sub_category": "Exhaust System",
+"unit": "SET",
+"keywords": ["turbocharger kit", "repair", "seals", "bearings"],
+"notes": "For specific model"
+},
+{
+"impa_code": "221901",
+"description": "Exhaust bellows, stainless steel, DN200",
+"category": "Engine & Machinery",
+"sub_category": "Exhaust System",
+"unit": "PCS",
+"keywords": ["exhaust bellows", "stainless", "dn200"],
+"notes": "Flexible"
+},
+{
+"impa_code": "222001",
+"description": "Propeller shaft, intermediate, 3 m length",
+"category": "Engine & Machinery",
+"sub_category": "Propellers & Shafts",
+"unit": "PCS",
+"keywords": ["propeller shaft", "intermediate", "3m"],
+"notes": "Forged steel"
+},
+{
+"impa_code": "222101",
+"description": "Fixed pitch propeller, 4-blade, 1800 mm diameter",
+"category": "Engine & Machinery",
+"sub_category": "Propellers & Shafts",
+"unit": "PCS",
+"keywords": ["fixed pitch propeller", "4-blade", "1800mm"],
+"notes": "Nickel-aluminum bronze"
+},
+{
+"impa_code": "222102",
+"description": "Controllable pitch propeller blade, set of 4",
+"category": "Engine & Machinery",
+"sub_category": "Propellers & Shafts",
+"unit": "SET",
+"keywords": ["cpp blade", "controllable pitch", "set"],
+"notes": "With seals"
+},
+{
+"impa_code": "222201",
+"description": "Hydraulic pump, for steering gear, 25 L/min, 100 bar",
+"category": "Engine & Machinery",
+"sub_category": "Hydraulic System",
+"unit": "PCS",
+"keywords": ["hydraulic pump", "steering", "25l/min", "100bar"],
+"notes": "Vane type"
+},
+{
+"impa_code": "222202",
+"description": "Hydraulic motor, orbital, 160 cc/rev",
+"category": "Engine & Machinery",
+"sub_category": "Hydraulic System",
+"unit": "PCS",
+"keywords": ["hydraulic motor", "orbital", "160cc"],
+"notes": "For winch"
+},
+{
+"impa_code": "590101",
+"description": "Engine oil, SAE 30, mineral, 20 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Lubricating Oils",
+"unit": "PAIL",
+"keywords": ["engine oil", "sae30", "mineral", "20l"],
+"notes": "API CF"
+},
+{
+"impa_code": "590102",
+"description": "Engine oil, SAE 40, heavy duty, 208 L drum",
+"category": "Chemicals & Lubricants",
+"sub_category": "Lubricating Oils",
+"unit": "DRM",
+"keywords": ["engine oil", "sae40", "heavy duty", "drum"],
+"notes": "API CI-4"
+},
+{
+"impa_code": "590103",
+"description": "Multigrade oil, 15W-40, synthetic blend, 20 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Lubricating Oils",
+"unit": "PAIL",
+"keywords": ["multigrade", "15w40", "synthetic blend"],
+"notes": "API CK-4"
+},
+{
+"impa_code": "590201",
+"description": "Hydraulic oil, ISO VG 32, anti-wear, 20 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Hydraulic Fluids",
+"unit": "PAIL",
+"keywords": ["hydraulic oil", "iso vg32", "anti-wear"],
+"notes": "For general hydraulics"
+},
+{
+"impa_code": "590202",
+"description": "Hydraulic oil, ISO VG 46, zinc-free, 208 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Hydraulic Fluids",
+"unit": "DRM",
+"keywords": ["hydraulic oil", "iso vg46", "zinc-free"],
+"notes": "For deck machinery"
+},
+{
+"impa_code": "590301",
+"description": "Gear oil, SAE 80W-90, GL-5, 20 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Gear Oils",
+"unit": "PAIL",
+"keywords": ["gear oil", "80w90", "gl5", "20l"],
+"notes": "For stern tube and transmissions"
+},
+{
+"impa_code": "590401",
+"description": "Grease, lithium complex, NLGI 2, cartridge 400 g",
+"category": "Chemicals & Lubricants",
+"sub_category": "Greases",
+"unit": "PCS",
+"keywords": ["grease", "lithium complex", "nlgi2", "cartridge"],
+"notes": "For bearings"
+},
+{
+"impa_code": "590402",
+"description": "Marine grease, waterproof, NLGI 3, 5 kg pail",
+"category": "Chemicals & Lubricants",
+"sub_category": "Greases",
+"unit": "PAIL",
+"keywords": ["marine grease", "waterproof", "nlgi3"],
+"notes": "For deck equipment"
+},
+{
+"impa_code": "590403",
+"description": "High temperature grease, NLGI 2, up to 200°C, 400 g",
+"category": "Chemicals & Lubricants",
+"sub_category": "Greases",
+"unit": "PCS",
+"keywords": ["high temp grease", "nlgi2", "200°c"],
+"notes": "For engine mounts"
+},
+{
+"impa_code": "590601",
+"description": "Engine oil additive, friction modifier, 1 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Additives",
+"unit": "PCS",
+"keywords": ["oil additive", "friction modifier", "1l"],
+"notes": "For break-in"
+},
+{
+"impa_code": "590701",
+"description": "Fuel additive, cetane booster, 1 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Additives",
+"unit": "PCS",
+"keywords": ["fuel additive", "cetane booster", "1l"],
+"notes": "Improves combustion"
+},
+{
+"impa_code": "590702",
+"description": "Diesel biocide, for fuel tank, 5 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Additives",
+"unit": "PCS",
+"keywords": ["diesel biocide", "fuel", "5l"],
+"notes": "Prevents microbial growth"
+},
+{
+"impa_code": "590801",
+"description": "Coolant/antifreeze, concentrate, ethylene glycol, 20 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Coolants",
+"unit": "PAIL",
+"keywords": ["coolant", "antifreeze", "concentrate", "ethylene glycol"],
+"notes": "For diesel engines"
+},
+{
+"impa_code": "590901",
+"description": "Degreaser, heavy duty, solvent based, 25 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Cleaning Agents",
+"unit": "PAIL",
+"keywords": ["degreaser", "heavy duty", "solvent", "25l"],
+"notes": "For engine room"
+},
+{
+"impa_code": "590902",
+"description": "Degreaser, water based, biodegradable, 5 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Cleaning Agents",
+"unit": "PCS",
+"keywords": ["degreaser", "water based", "biodegradable"],
+"notes": "Environment friendly"
+},
+{
+"impa_code": "591001",
+"description": "Solvent cleaner, citrus based, 5 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Cleaning Agents",
+"unit": "PCS",
+"keywords": ["solvent cleaner", "citrus", "5l"],
+"notes": "For oil spills"
+},
+{
+"impa_code": "591101",
+"description": "Bilge cleaner, emulsifies oil, 25 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Cleaning Agents",
+"unit": "PAIL",
+"keywords": ["bilge cleaner", "emulsifies", "25l"],
+"notes": "Concentrate"
+},
+{
+"impa_code": "591201",
+"description": "Paint remover, gel, 5 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Paints & Coatings",
+"unit": "PCS",
+"keywords": ["paint remover", "gel", "5l"],
+"notes": "For marine paints"
+},
+{
+"impa_code": "591301",
+"description": "Epoxy primer, 2-component, 5 L set",
+"category": "Chemicals & Lubricants",
+"sub_category": "Paints & Coatings",
+"unit": "SET",
+"keywords": ["epoxy primer", "2k", "5l"],
+"notes": "For steel, anti-corrosive"
+},
+{
+"impa_code": "591401",
+"description": "Topside paint, white, polyurethane, 5 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Paints & Coatings",
+"unit": "PAIL",
+"keywords": ["topside paint", "white", "polyurethane", "5l"],
+"notes": "Gloss finish"
+},
+{
+"impa_code": "591501",
+"description": "Antifouling paint, self-polishing, 20 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Paints & Coatings",
+"unit": "PAIL",
+"keywords": ["antifouling", "self-polishing", "20l"],
+"notes": "Copper based"
+},
+{
+"impa_code": "591502",
+"description": "Antifouling, hard matrix, 5 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Paints & Coatings",
+"unit": "PAIL",
+"keywords": ["antifouling", "hard matrix", "5l"],
+"notes": "For high speed vessels"
+},
+{
+"impa_code": "591601",
+"description": "Marine varnish, clear, UV protection, 1 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Paints & Coatings",
+"unit": "PCS",
+"keywords": ["varnish", "clear", "uv", "1l"],
+"notes": "For interior wood"
+},
+{
+"impa_code": "591701",
+"description": "Thinner, universal, for alkyd paints, 5 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Solvents",
+"unit": "PCS",
+"keywords": ["thinner", "universal", "alkyd", "5l"],
+"notes": "Mineral spirits"
+},
+{
+"impa_code": "591702",
+"description": "Thinner, epoxy, 5 L",
+"category": "Chemicals & Lubricants",
+"sub_category": "Solvents",
+"unit": "PCS",
+"keywords": ["thinner", "epoxy", "5l"],
+"notes": "For two component paints"
+},
+{
+"impa_code": "710101",
+"description": "Centrifugal pump, horizontal, 50 m³/h, 20 m head",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Centrifugal Pumps",
+"unit": "PCS",
+"keywords": ["centrifugal pump", "horizontal", "50m³/h", "20m"],
+"notes": "Bronze casing, SS impeller"
+},
+{
+"impa_code": "710102",
+"description": "Self-priming centrifugal pump, 30 m³/h, 15 m",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Centrifugal Pumps",
+"unit": "PCS",
+"keywords": ["self-priming", "centrifugal", "30m³/h"],
+"notes": "For bilge"
+},
+{
+"impa_code": "710201",
+"description": "Diaphragm pump, air operated, 1 inch, PTFE",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Positive Displacement Pumps",
+"unit": "PCS",
+"keywords": ["diaphragm pump", "air operated", "1 inch", "ptfe"],
+"notes": "For chemicals"
+},
+{
+"impa_code": "710202",
+"description": "Diaphragm pump, manual, 100 L/h, for oil transfer",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Positive Displacement Pumps",
+"unit": "PCS",
+"keywords": ["diaphragm pump", "manual", "100l/h"],
+"notes": "Cast iron"
+},
+{
+"impa_code": "710301",
+"description": "Gear pump, external, 10 L/min, 10 bar",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Positive Displacement Pumps",
+"unit": "PCS",
+"keywords": ["gear pump", "external", "10l/min", "10bar"],
+"notes": "For lube oil"
+},
+{
+"impa_code": "710401",
+"description": "Screw pump, triple screw, 100 L/min, 16 bar",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Positive Displacement Pumps",
+"unit": "PCS",
+"keywords": ["screw pump", "triple screw", "100l/min"],
+"notes": "For fuel oil"
+},
+{
+"impa_code": "710501",
+"description": "Submersible pump, 12 V, 3000 L/h, for bilge",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Submersible Pumps",
+"unit": "PCS",
+"keywords": ["submersible pump", "12v", "3000l/h", "bilge"],
+"notes": "Automatic float switch"
+},
+{
+"impa_code": "710502",
+"description": "Submersible pump, 230 V, 15 m³/h, 10 m head",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Submersible Pumps",
+"unit": "PCS",
+"keywords": ["submersible", "230v", "15m³/h"],
+"notes": "Stainless steel"
+},
+{
+"impa_code": "710601",
+"description": "Pump impeller, rubber, for Jabsco 2",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Pump Spares",
+"unit": "PCS",
+"keywords": ["impeller", "rubber", "jabsco", "2 inch"],
+"notes": "Neoprene"
+},
+{
+"impa_code": "710602",
+"description": "Mechanical seal, 30 mm, for centrifugal pump",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Pump Spares",
+"unit": "PCS",
+"keywords": ["mechanical seal", "30mm", "centrifugal"],
+"notes": "Silicon carbide vs carbon"
+},
+{
+"impa_code": "720101",
+"description": "Gate valve, bronze, flanged, DN50, PN16",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Valves",
+"unit": "PCS",
+"keywords": ["gate valve", "bronze", "flanged", "dn50", "pn16"],
+"notes": "Rising stem"
+},
+{
+"impa_code": "720102",
+"description": "Gate valve, cast steel, DN100, PN25",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Valves",
+"unit": "PCS",
+"keywords": ["gate valve", "cast steel", "dn100", "pn25"],
+"notes": "OS&Y"
+},
+{
+"impa_code": "720201",
+"description": "Globe valve, bronze, screwed, DN25, PN16",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Valves",
+"unit": "PCS",
+"keywords": ["globe valve", "bronze", "screwed", "dn25", "pn16"],
+"notes": "Renewable seat"
+},
+{
+"impa_code": "720301",
+"description": "Ball valve, stainless, 2-piece, DN20, PN63",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Valves",
+"unit": "PCS",
+"keywords": ["ball valve", "stainless", "2-piece", "dn20", "pn63"],
+"notes": "Full bore, PTFE seat"
+},
+{
+"impa_code": "720302",
+"description": "Ball valve, brass, 3-piece, DN15, PN40",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Valves",
+"unit": "PCS",
+"keywords": ["ball valve", "brass", "3-piece", "dn15"],
+"notes": "With locking handle"
+},
+{
+"impa_code": "720401",
+"description": "Butterfly valve, wafer type, DN80, PN16, ductile iron",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Valves",
+"unit": "PCS",
+"keywords": ["butterfly valve", "wafer", "dn80", "pn16"],
+"notes": "EPDM seat"
+},
+{
+"impa_code": "720501",
+"description": "Check valve, swing type, flanged, DN65, PN16, cast iron",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Valves",
+"unit": "PCS",
+"keywords": ["check valve", "swing", "flanged", "dn65"],
+"notes": "Horizontal or vertical"
+},
+{
+"impa_code": "720502",
+"description": "Check valve, spring loaded, stainless, DN25, PN40",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Valves",
+"unit": "PCS",
+"keywords": ["check valve", "spring", "stainless", "dn25"],
+"notes": "For chemical lines"
+},
+{
+"impa_code": "720601",
+"description": "Pressure relief valve, bronze, set at 10 bar, 1 inch",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Valves",
+"unit": "PCS",
+"keywords": ["pressure relief", "safety valve", "10bar", "1 inch"],
+"notes": "ASME certified"
+},
+{
+"impa_code": "720701",
+"description": "Electric actuator, for quarter-turn valve, 24 V DC",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Valves",
+"unit": "PCS",
+"keywords": ["actuator", "electric", "quarter-turn", "24v"],
+"notes": "With manual override"
+},
+{
+"impa_code": "730101",
+"description": "Seamless steel pipe, ASTM A106, DN50, sch40, 6 m",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Pipes",
+"unit": "PCS",
+"keywords": ["steel pipe", "seamless", "astm a106", "dn50", "sch40"],
+"notes": "Black"
+},
+{
+"impa_code": "730201",
+"description": "Copper pipe, EN 1057, 22 mm x 1.5 mm, 5 m coil",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Pipes",
+"unit": "PCS",
+"keywords": ["copper pipe", "22mm", "1.5mm", "coil"],
+"notes": "For fuel lines"
+},
+{
+"impa_code": "730301",
+"description": "PVC pressure pipe, 50 mm, PN10, 5 m",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Pipes",
+"unit": "PCS",
+"keywords": ["pvc pipe", "pressure", "50mm", "pn10"],
+"notes": "For water"
+},
+{
+"impa_code": "730401",
+"description": "Pipe flange, slip-on, DN50, PN16, galvanized",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Pipe Fittings",
+"unit": "PCS",
+"keywords": ["pipe flange", "slip-on", "dn50", "pn16", "galvanized"],
+"notes": "EN 1092-1"
+},
+{
+"impa_code": "730402",
+"description": "Blind flange, DN80, PN16, stainless",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Pipe Fittings",
+"unit": "PCS",
+"keywords": ["blind flange", "dn80", "pn16", "stainless"],
+"notes": "A4"
+},
+{
+"impa_code": "730501",
+"description": "Elbow, 90°, long radius, buttweld, DN40, sch40, carbon steel",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Pipe Fittings",
+"unit": "PCS",
+"keywords": ["elbow", "90°", "long radius", "buttweld", "dn40"],
+"notes": "BW"
+},
+{
+"impa_code": "730502",
+"description": "Elbow, 45°, threaded, DN25, galvanized",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Pipe Fittings",
+"unit": "PCS",
+"keywords": ["elbow", "45°", "threaded", "dn25"],
+"notes": "BSPT"
+},
+{
+"impa_code": "730601",
+"description": "Tee, equal, buttweld, DN50, sch40, stainless",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Pipe Fittings",
+"unit": "PCS",
+"keywords": ["tee", "equal", "buttweld", "dn50", "stainless"],
+"notes": "304L"
+},
+{
+"impa_code": "730701",
+"description": "Reducer, concentric, buttweld, DN80 x DN50, sch40",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Pipe Fittings",
+"unit": "PCS",
+"keywords": ["reducer", "concentric", "buttweld", "dn80x50"],
+"notes": "Carbon steel"
+},
+{
+"impa_code": "730801",
+"description": "Coupling, full, threaded, DN20, galvanized",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Pipe Fittings",
+"unit": "PCS",
+"keywords": ["coupling", "full", "threaded", "dn20"],
+"notes": "BSP"
+},
+{
+"impa_code": "730901",
+"description": "Pipe hanger, adjustable, for 50 mm pipe, galvanized",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Pipe Hangers",
+"unit": "PCS",
+"keywords": ["pipe hanger", "adjustable", "50mm"],
+"notes": "With rod"
+},
+{
+"impa_code": "731001",
+"description": "Gasket, non-asbestos, DN50, PN16, RF, 2 mm",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Gaskets",
+"unit": "PCS",
+"keywords": ["gasket", "non-asbestos", "dn50", "pn16", "rf"],
+"notes": "CAF"
+},
+{
+"impa_code": "731002",
+"description": "Spiral wound gasket, DN80, PN40, stainless with graphite",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Gaskets",
+"unit": "PCS",
+"keywords": ["spiral wound gasket", "dn80", "pn40"],
+"notes": "With inner ring"
+},
+{
+"impa_code": "731101",
+"description": "Expansion joint, rubber, single sphere, DN50, PN10",
+"category": "Pumps, Valves & Pipes",
+"sub_category": "Expansion Joints",
+"unit": "PCS",
+"keywords": ["expansion joint", "rubber", "single sphere", "dn50"],
+"notes": "For vibration"
+},
+{
+"impa_code": "640101",
+"description": "GPS navigator, 7 inch, chartplotter included",
+"category": "Navigation & Communication",
+"sub_category": "GPS & Chartplotters",
+"unit": "PCS",
+"keywords": ["gps", "navigator", "7 inch", "chartplotter"],
+"notes": "Touchscreen"
+},
+{
+"impa_code": "640102",
+"description": "GPS antenna, active, 5 m cable",
+"category": "Navigation & Communication",
+"sub_category": "GPS & Chartplotters",
+"unit": "PCS",
+"keywords": ["gps antenna", "active", "5m"],
+"notes": "NMEA 0183"
+},
+{
+"impa_code": "640201",
+"description": "Chartplotter, 12 inch, with worldwide charts",
+"category": "Navigation & Communication",
+"sub_category": "GPS & Chartplotters",
+"unit": "PCS",
+"keywords": ["chartplotter", "12 inch", "worldwide"],
+"notes": "C-MAP"
+},
+{
+"impa_code": "640301",
+"description": "Radar, 4 kW, 18 inch dome, color LCD display",
+"category": "Navigation & Communication",
+"sub_category": "Radar",
+"unit": "SET",
+"keywords": ["radar", "4kw", "18 inch", "dome"],
+"notes": "Marine band"
+},
+{
+"impa_code": "640302",
+"description": "Radar scanner, open array, 6 ft, 10 kW",
+"category": "Navigation & Communication",
+"sub_category": "Radar",
+"unit": "PCS",
+"keywords": ["radar scanner", "open array", "6ft", "10kw"],
+"notes": "For commercial vessels"
+},
+{
+"impa_code": "640401",
+"description": "AIS transponder, class B, with GPS",
+"category": "Navigation & Communication",
+"sub_category": "AIS",
+"unit": "PCS",
+"keywords": ["ais", "transponder", "class b", "gps"],
+"notes": "Transmit and receive"
+},
+{
+"impa_code": "640402",
+"description": "AIS receiver, class A, dual channel",
+"category": "Navigation & Communication",
+"sub_category": "AIS",
+"unit": "PCS",
+"keywords": ["ais receiver", "class a", "dual channel"],
+"notes": "NMEA output"
+},
+{
+"impa_code": "640501",
+"description": "Echo sounder, 600 W, dual frequency 50/200 kHz",
+"category": "Navigation & Communication",
+"sub_category": "Echo Sounders",
+"unit": "PCS",
+"keywords": ["echo sounder", "600w", "50khz", "200khz", "depth"],
+"notes": "With transducer"
+},
+{
+"impa_code": "640601",
+"description": "Speed log, electromagnetic, through-hull",
+"category": "Navigation & Communication",
+"sub_category": "Speed Logs",
+"unit": "PCS",
+"keywords": ["speed log", "electromagnetic", "through-hull"],
+"notes": "0-20 knots"
+},
+{
+"impa_code": "640701",
+"description": "Gyrocompass, marine, standard 20, with repeater",
+"category": "Navigation & Communication",
+"sub_category": "Compasses",
+"unit": "SET",
+"keywords": ["gyrocompass", "marine", "standard 20", "repeater"],
+"notes": "SOLAS"
+},
+{
+"impa_code": "640801",
+"description": "Magnetic compass, flat top, 130 mm card",
+"category": "Navigation & Communication",
+"sub_category": "Compasses",
+"unit": "PCS",
+"keywords": ["magnetic compass", "flat top", "130mm"],
+"notes": "With binnacle"
+},
+{
+"impa_code": "640901",
+"description": "Autopilot system, for vessels up to 40 ft",
+"category": "Navigation & Communication",
+"sub_category": "Autopilot",
+"unit": "SET",
+"keywords": ["autopilot", "40ft", "drive unit"],
+"notes": "Hydraulic or mechanical"
+},
+{
+"impa_code": "641001",
+"description": "Steering control unit, with knob, 12/24 V",
+"category": "Navigation & Communication",
+"sub_category": "Autopilot",
+"unit": "PCS",
+"keywords": ["steering control", "knob", "12v", "24v"],
+"notes": "Follow-up"
+},
+{
+"impa_code": "650101",
+"description": "VHF marine radio, fixed mount, 25 W, DSC",
+"category": "Navigation & Communication",
+"sub_category": "VHF Radios",
+"unit": "PCS",
+"keywords": ["vhf", "marine radio", "fixed", "25w", "dsc"],
+"notes": "ITU channels"
+},
+{
+"impa_code": "650102",
+"description": "Handheld VHF, waterproof, 6 W, floating",
+"category": "Navigation & Communication",
+"sub_category": "VHF Radios",
+"unit": "PCS",
+"keywords": ["handheld", "vhf", "waterproof", "6w", "floating"],
+"notes": "Lithium battery"
+},
+{
+"impa_code": "650201",
+"description": "SSB radio, 150 W, with tuner",
+"category": "Navigation & Communication",
+"sub_category": "SSB Radios",
+"unit": "SET",
+"keywords": ["ssb", "single sideband", "150w", "tuner"],
+"notes": "MF/HF"
+},
+{
+"impa_code": "650301",
+"description": "Satellite phone, Iridium, with antenna",
+"category": "Navigation & Communication",
+"sub_category": "Satellite Communication",
+"unit": "SET",
+"keywords": ["satellite phone", "iridium", "antenna"],
+"notes": "Global coverage"
+},
+{
+"impa_code": "650302",
+"description": "VSAT antenna, 1 m, Ku-band",
+"category": "Navigation & Communication",
+"sub_category": "Satellite Communication",
+"unit": "PCS",
+"keywords": ["vsat", "antenna", "1m", "ku-band"],
+"notes": "For broadband at sea"
+},
+{
+"impa_code": "650401",
+"description": "VHF antenna, 3 dB, stainless steel, 1.5 m",
+"category": "Navigation & Communication",
+"sub_category": "Antennas",
+"unit": "PCS",
+"keywords": ["vhf antenna", "3db", "stainless", "1.5m"],
+"notes": "With cable"
+},
+{
+"impa_code": "650402",
+"description": "GPS antenna, splitter, 15 m cable",
+"category": "Navigation & Communication",
+"sub_category": "Antennas",
+"unit": "PCS",
+"keywords": ["gps antenna", "splitter", "15m"],
+"notes": "Active"
+},
+{
+"impa_code": "650501",
+"description": "Intercom system, master and 5 substations",
+"category": "Navigation & Communication",
+"sub_category": "Intercom Systems",
+"unit": "SET",
+"keywords": ["intercom", "master", "substations", "ship"],
+"notes": "Hands-free"
+},
+{
+"impa_code": "650601",
+"description": "Public address amplifier, 60 W, 100 V line",
+"category": "Navigation & Communication",
+"sub_category": "Public Address",
+"unit": "PCS",
+"keywords": ["public address", "amplifier", "60w", "100v"],
+"notes": "With microphone"
+},
+{
+"impa_code": "650701",
+"description": "EPIRB test set, for 406 MHz",
+"category": "Navigation & Communication",
+"sub_category": "Emergency Beacons",
+"unit": "PCS",
+"keywords": ["epirb test", "406 mhz", "tester"],
+"notes": "Self-test function"
+},
+{
+"impa_code": "650801",
+"description": "NAVTEX receiver, dual frequency",
+"category": "Navigation & Communication",
+"sub_category": "NAVTEX",
+"unit": "PCS",
+"keywords": ["navtex", "receiver", "dual frequency", "msg"],
+"notes": "Integrated printer"
+},
+{
+"impa_code": "650901",
+"description": "Weather fax receiver, HF",
+"category": "Navigation & Communication",
+"sub_category": "Weather Fax",
+"unit": "PCS",
+"keywords": ["weather fax", "hf", "receiver"],
+"notes": "With software"
+},
+{
+"impa_code": "660101",
+"description": "Galley stove, electric, 4 burners, oven, stainless steel",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Galley Equipment",
+"unit": "PCS",
+"keywords": ["galley stove", "electric", "4 burner", "oven", "stainless"],
+"notes": "400V 3-phase"
+},
+{
+"impa_code": "660102",
+"description": "Induction hob, 2 zones, 230 V",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Galley Equipment",
+"unit": "PCS",
+"keywords": ["induction hob", "2 zones", "230v"],
+"notes": "Touch control"
+},
+{
+"impa_code": "660201",
+"description": "Convection oven, electric, 60 L",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Galley Equipment",
+"unit": "PCS",
+"keywords": ["convection oven", "electric", "60l"],
+"notes": "Stainless"
+},
+{
+"impa_code": "660301",
+"description": "Refrigerator, undercounter, 150 L, 230 V",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Galley Equipment",
+"unit": "PCS",
+"keywords": ["refrigerator", "undercounter", "150l", "230v"],
+"notes": "Marine grade"
+},
+{
+"impa_code": "660302",
+"description": "Upright refrigerator, 400 L, stainless",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Galley Equipment",
+"unit": "PCS",
+"keywords": ["upright refrigerator", "400l", "stainless"],
+"notes": "With freezer compartment"
+},
+{
+"impa_code": "660401",
+"description": "Chest freezer, 300 L, 230 V",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Galley Equipment",
+"unit": "PCS",
+"keywords": ["chest freezer", "300l", "230v"],
+"notes": "Counterbalanced lid"
+},
+{
+"impa_code": "660501",
+"description": "Dishwasher, built-in, 12 place settings",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Galley Equipment",
+"unit": "PCS",
+"keywords": ["dishwasher", "built-in", "12 place"],
+"notes": "Energy efficient"
+},
+{
+"impa_code": "660601",
+"description": "Microwave oven, 25 L, 900 W",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Galley Equipment",
+"unit": "PCS",
+"keywords": ["microwave", "25l", "900w"],
+"notes": "Stainless"
+},
+{
+"impa_code": "660701",
+"description": "Coffee machine, espresso, automatic",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Galley Equipment",
+"unit": "PCS",
+"keywords": ["coffee machine", "espresso", "automatic"],
+"notes": "With milk frother"
+},
+{
+"impa_code": "660801",
+"description": "Electric kettle, 1.7 L, stainless",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Galley Equipment",
+"unit": "PCS",
+"keywords": ["kettle", "electric", "1.7l", "stainless"],
+"notes": "Concealed element"
+},
+{
+"impa_code": "660901",
+"description": "Toaster, 2-slice, wide slot",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Galley Equipment",
+"unit": "PCS",
+"keywords": ["toaster", "2-slice", "wide slot"],
+"notes": "Adjustable browning"
+},
+{
+"impa_code": "661001",
+"description": "Cutlery set, stainless, 24-piece (knives, forks, spoons)",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Utensils & Cutlery",
+"unit": "SET",
+"keywords": ["cutlery set", "stainless", "24-piece"],
+"notes": "18/10"
+},
+{
+"impa_code": "661101",
+"description": "Chef's knife, 200 mm, forged",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Utensils & Cutlery",
+"unit": "PCS",
+"keywords": ["chef knife", "200mm", "forged"],
+"notes": "High carbon stainless"
+},
+{
+"impa_code": "661102",
+"description": "Boning knife, 150 mm, flexible",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Utensils & Cutlery",
+"unit": "PCS",
+"keywords": ["boning knife", "150mm", "flexible"],
+"notes": "For fish"
+},
+{
+"impa_code": "661201",
+"description": "Frying pan, non-stick, 280 mm",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Cookware",
+"unit": "PCS",
+"keywords": ["frying pan", "non-stick", "280mm"],
+"notes": "Aluminum"
+},
+{
+"impa_code": "661202",
+"description": "Saucepan set, 3 pcs, 16/18/20 cm",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Cookware",
+"unit": "SET",
+"keywords": ["saucepan", "set", "16cm", "18cm", "20cm"],
+"notes": "Stainless, with lids"
+},
+{
+"impa_code": "661203",
+"description": "Stock pot, 40 L, heavy duty",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Cookware",
+"unit": "PCS",
+"keywords": ["stock pot", "40l", "heavy duty"],
+"notes": "For galley"
+},
+{
+"impa_code": "661301",
+"description": "Baking tray, 40x30 cm, aluminum",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Cookware",
+"unit": "PCS",
+"keywords": ["baking tray", "40x30", "aluminum"],
+"notes": "Heavy gauge"
+},
+{
+"impa_code": "661401",
+"description": "Dinner plate, 260 mm, porcelain, white",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Tableware",
+"unit": "DOZ",
+"keywords": ["dinner plate", "260mm", "porcelain", "white"],
+"notes": "Commercial grade"
+},
+{
+"impa_code": "661402",
+"description": "Soup bowl, 180 mm, porcelain",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Tableware",
+"unit": "DOZ",
+"keywords": ["soup bowl", "180mm", "porcelain"],
+"notes": "Dishwasher safe"
+},
+{
+"impa_code": "661501",
+"description": "Cereal bowl, 150 mm, melamine",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Tableware",
+"unit": "DOZ",
+"keywords": ["cereal bowl", "150mm", "melamine"],
+"notes": "Unbreakable"
+},
+{
+"impa_code": "661601",
+"description": "Coffee mug, 300 ml, ceramic",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Tableware",
+"unit": "DOZ",
+"keywords": ["coffee mug", "300ml", "ceramic"],
+"notes": "Assorted colors"
+},
+{
+"impa_code": "661701",
+"description": "Tumbler glass, 300 ml, clear",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Tableware",
+"unit": "DOZ",
+"keywords": ["tumbler", "glass", "300ml", "clear"],
+"notes": "Tempered"
+},
+{
+"impa_code": "661801",
+"description": "Sheet set, single, cotton, 180x260 cm",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Linen",
+"unit": "SET",
+"keywords": ["bed sheet", "single", "cotton", "180x260"],
+"notes": "White, with pillowcase"
+},
+{
+"impa_code": "661802",
+"description": "Pillowcase, 50x70 cm, cotton, pack 5",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Linen",
+"unit": "SET",
+"keywords": ["pillowcase", "50x70", "cotton", "pack 5"],
+"notes": "Envelope closure"
+},
+{
+"impa_code": "661901",
+"description": "Bath towel, 70x140 cm, cotton, white",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Linen",
+"unit": "PCS",
+"keywords": ["bath towel", "70x140", "cotton"],
+"notes": "400 gsm"
+},
+{
+"impa_code": "662001",
+"description": "Mattress, single, foam, 90x200 cm",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Furniture",
+"unit": "PCS",
+"keywords": ["mattress", "single", "foam", "90x200"],
+"notes": "Medium firm"
+},
+{
+"impa_code": "662101",
+"description": "Pillow, synthetic fiber, 50x70 cm",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Linen",
+"unit": "PCS",
+"keywords": ["pillow", "synthetic", "50x70"],
+"notes": "Hypoallergenic"
+},
+{
+"impa_code": "662201",
+"description": "Blanket, wool blend, 180x220 cm",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Linen",
+"unit": "PCS",
+"keywords": ["blanket", "wool blend", "180x220"],
+"notes": "Charcoal"
+},
+{
+"impa_code": "662301",
+"description": "Cleaning trolley, with mop and bucket",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Cleaning Supplies",
+"unit": "PCS",
+"keywords": ["cleaning trolley", "mop", "bucket"],
+"notes": "Plastic construction"
+},
+{
+"impa_code": "662401",
+"description": "Vacuum cleaner, industrial, 1500 W",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Cleaning Supplies",
+"unit": "PCS",
+"keywords": ["vacuum cleaner", "industrial", "1500w"],
+"notes": "Wet/dry"
+},
+{
+"impa_code": "662501",
+"description": "Mop, cotton, 50 cm, with handle",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Cleaning Supplies",
+"unit": "SET",
+"keywords": ["mop", "cotton", "50cm", "handle"],
+"notes": "Refill available"
+},
+{
+"impa_code": "662502",
+"description": "Bucket, 20 L, plastic, with wringer",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Cleaning Supplies",
+"unit": "PCS",
+"keywords": ["bucket", "20l", "plastic", "wringer"],
+"notes": "Yellow"
+},
+{
+"impa_code": "662601",
+"description": "Broom, hardwearing, synthetic bristles",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Cleaning Supplies",
+"unit": "PCS",
+"keywords": ["broom", "hardwearing", "synthetic"],
+"notes": "With dustpan"
+},
+{
+"impa_code": "662701",
+"description": "All-purpose cleaner, 5 L, concentrated",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Cleaning Supplies",
+"unit": "PCS",
+"keywords": ["all-purpose cleaner", "5l", "concentrated"],
+"notes": "Neutral pH"
+},
+{
+"impa_code": "662801",
+"description": "Washing machine, front load, 8 kg, 230 V",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Laundry Equipment",
+"unit": "PCS",
+"keywords": ["washing machine", "front load", "8kg", "230v"],
+"notes": "Marine grade"
+},
+{
+"impa_code": "662901",
+"description": "Tumble dryer, vented, 7 kg, 230 V",
+"category": "Cabin & Catering Supplies",
+"sub_category": "Laundry Equipment",
+"unit": "PCS",
+"keywords": ["tumble dryer", "vented", "7kg", "230v"],
+"notes": "Reverse action"
+}
+]
+}

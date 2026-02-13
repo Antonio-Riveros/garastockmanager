@@ -1,13 +1,23 @@
 {% extends 'base.html' %}
 {% load stock_extras %}
-
 {% block content %}
-<h2>{{ 'Import Items'|translate:request.LANGUAGE_CODE }}</h2>
-<p>{{ 'Upload Excel'|translate:request.LANGUAGE_CODE }}. Columns required (Spanish): Elemento, Categoría, Estado,
-    Cantidad, Descripción.</p>
-<form method="post" enctype="multipart/form-data">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit" class="btn btn-block">{{ 'Upload'|translate:request.LANGUAGE_CODE }}</button>
-</form>
+<div class="row justify-content-center"><div class="col-md-8 col-lg-6">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white"><h4 class="mb-0">{{ 'Import Items'|translate:request.LANGUAGE_CODE }}</h4></div>
+        <div class="card-body">
+            <div class="alert alert-info">
+                <i class="bi bi-info-circle"></i> {{ 'Upload Excel'|translate:request.LANGUAGE_CODE }}. {{ 'Columns required'|translate:request.LANGUAGE_CODE }}: <strong>Elemento, Categoría, Estado, Cantidad, Descripción</strong>.
+            </div>
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="mb-3">
+                    <label for="{{ form.excel_file.id_for_label }}" class="form-label fw-bold">{{ form.excel_file.label }}</label>
+                    {{ form.excel_file }}
+                    {{ form.excel_file.errors }}
+                </div>
+                <div class="d-grid"><button type="submit" class="btn btn-primary"><i class="bi bi-upload"></i> {{ 'Upload'|translate:request.LANGUAGE_CODE }}</button></div>
+            </form>
+        </div>
+    </div>
+</div></div>
 {% endblock %}
